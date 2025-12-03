@@ -1,0 +1,55 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 04:59:54 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Wed Dec  3 09:19:29 2025
+# Process ID: 222725
+# Current directory: /home/bouthsarath/ibert_dfe
+# Command line: vivado -mode tcl -source ./fwk/src/main.tcl -notrace -journal prj/zubpm_hw/zubpm_hw.jou -log prj/zubpm_hw/zubpm_hw.log -tclargs init gui -c cfg/hw.cfg -t vivado
+# Log file: /home/bouthsarath/ibert_dfe/prj/zubpm_hw/zubpm_hw.log
+# Journal file: /home/bouthsarath/ibert_dfe/prj/zubpm_hw/zubpm_hw.jou
+# Running On: WPS-171005, OS: Linux, CPU Frequency: 800.684 MHz, CPU Physical cores: 16, Host memory: 67199 MB
+#-----------------------------------------------------------
+source ./fwk/src/main.tcl -notrace
+update_compile_order -fileset sources_1
+open_bd_design {/home/bouthsarath/ibert_dfe/prj/zubpm_hw/zubpm_hw.srcs/sources_1/bd/top/top.bd}
+open_hw_manager
+connect_hw_server -url 10.0.142.173:3121 -allow_non_jtag
+current_hw_target [get_hw_targets */xilinx_tcf/Xilinx/AAo1HSX10]
+set_property PARAM.FREQUENCY 40000000 [get_hw_targets */xilinx_tcf/Xilinx/AAo1HSX10]
+open_hw_target
+current_hw_device [get_hw_devices xczu6_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xczu6_0] 0]
+current_hw_device [get_hw_devices arm_dap_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices arm_dap_1] 0]
+current_hw_device [get_hw_devices xczu6_0]
+set_property PROBES.FILE {/home/bouthsarath/ibert_dfe/prj/zubpm_hw/zubpm_hw.runs/impl_1/ibert_test.ltx} [get_hw_devices xczu6_0]
+set_property FULL_PROBES.FILE {/home/bouthsarath/ibert_dfe/prj/zubpm_hw/zubpm_hw.runs/impl_1/ibert_test.ltx} [get_hw_devices xczu6_0]
+set_property PROGRAM.FILE {/home/bouthsarath/ibert_dfe/prj/zubpm_hw/zubpm_hw.runs/impl_1/ibert_test.bit} [get_hw_devices xczu6_0]
+program_hw_devices [get_hw_devices xczu6_0]
+refresh_hw_device [lindex [get_hw_devices xczu6_0] 0]
+set xil_newLinks [list]
+set xil_newLink [create_hw_sio_link -description {Link 0} [lindex [get_hw_sio_txs 10.0.142.173:3121/xilinx_tcf/Xilinx/AAo1HSX10/0_1_0_0/IBERT/Quad_128/MGT_X0Y4/TX] 0] [lindex [get_hw_sio_rxs 10.0.142.173:3121/xilinx_tcf/Xilinx/AAo1HSX10/0_1_0_0/IBERT/Quad_128/MGT_X0Y4/RX] 0] ]
+lappend xil_newLinks $xil_newLink
+set xil_newLink [create_hw_sio_link -description {Link 1} [lindex [get_hw_sio_txs 10.0.142.173:3121/xilinx_tcf/Xilinx/AAo1HSX10/0_1_0_0/IBERT/Quad_128/MGT_X0Y5/TX] 0] [lindex [get_hw_sio_rxs 10.0.142.173:3121/xilinx_tcf/Xilinx/AAo1HSX10/0_1_0_0/IBERT/Quad_128/MGT_X0Y5/RX] 0] ]
+lappend xil_newLinks $xil_newLink
+set xil_newLink [create_hw_sio_link -description {Link 2} [lindex [get_hw_sio_txs 10.0.142.173:3121/xilinx_tcf/Xilinx/AAo1HSX10/0_1_0_0/IBERT/Quad_128/MGT_X0Y6/TX] 0] [lindex [get_hw_sio_rxs 10.0.142.173:3121/xilinx_tcf/Xilinx/AAo1HSX10/0_1_0_0/IBERT/Quad_128/MGT_X0Y6/RX] 0] ]
+lappend xil_newLinks $xil_newLink
+set xil_newLink [create_hw_sio_link -description {Link 3} [lindex [get_hw_sio_txs 10.0.142.173:3121/xilinx_tcf/Xilinx/AAo1HSX10/0_1_0_0/IBERT/Quad_128/MGT_X0Y7/TX] 0] [lindex [get_hw_sio_rxs 10.0.142.173:3121/xilinx_tcf/Xilinx/AAo1HSX10/0_1_0_0/IBERT/Quad_128/MGT_X0Y7/RX] 0] ]
+lappend xil_newLinks $xil_newLink
+set xil_newLink [create_hw_sio_link -description {Link 4} [lindex [get_hw_sio_txs 10.0.142.173:3121/xilinx_tcf/Xilinx/AAo1HSX10/0_1_0_0/IBERT/Quad_129/MGT_X0Y8/TX] 0] [lindex [get_hw_sio_rxs 10.0.142.173:3121/xilinx_tcf/Xilinx/AAo1HSX10/0_1_0_0/IBERT/Quad_129/MGT_X0Y8/RX] 0] ]
+lappend xil_newLinks $xil_newLink
+set xil_newLink [create_hw_sio_link -description {Link 5} [lindex [get_hw_sio_txs 10.0.142.173:3121/xilinx_tcf/Xilinx/AAo1HSX10/0_1_0_0/IBERT/Quad_129/MGT_X0Y9/TX] 0] [lindex [get_hw_sio_rxs 10.0.142.173:3121/xilinx_tcf/Xilinx/AAo1HSX10/0_1_0_0/IBERT/Quad_129/MGT_X0Y9/RX] 0] ]
+lappend xil_newLinks $xil_newLink
+set xil_newLink [create_hw_sio_link -description {Link 6} [lindex [get_hw_sio_txs 10.0.142.173:3121/xilinx_tcf/Xilinx/AAo1HSX10/0_1_0_0/IBERT/Quad_129/MGT_X0Y10/TX] 0] [lindex [get_hw_sio_rxs 10.0.142.173:3121/xilinx_tcf/Xilinx/AAo1HSX10/0_1_0_0/IBERT/Quad_129/MGT_X0Y10/RX] 0] ]
+lappend xil_newLinks $xil_newLink
+set xil_newLink [create_hw_sio_link -description {Link 7} [lindex [get_hw_sio_txs 10.0.142.173:3121/xilinx_tcf/Xilinx/AAo1HSX10/0_1_0_0/IBERT/Quad_129/MGT_X0Y11/TX] 0] [lindex [get_hw_sio_rxs 10.0.142.173:3121/xilinx_tcf/Xilinx/AAo1HSX10/0_1_0_0/IBERT/Quad_129/MGT_X0Y11/RX] 0] ]
+lappend xil_newLinks $xil_newLink
+set xil_newLinkGroup [create_hw_sio_linkgroup -description {Link Group 0} [get_hw_sio_links $xil_newLinks]]
+unset xil_newLinks
+set_property LOOPBACK {Near-End PCS} [get_hw_sio_links -of_objects [get_hw_sio_linkgroups {Link_Group_0}]]
+commit_hw_sio -non_blocking [get_hw_sio_links -of_objects [get_hw_sio_linkgroups {Link_Group_0}]]
+set_property LOGIC.MGT_ERRCNT_RESET_CTRL 1 [get_hw_sio_links -of_objects [get_hw_sio_linkgroups {Link_Group_0}]]
+commit_hw_sio -non_blocking [get_hw_sio_links -of_objects [get_hw_sio_linkgroups {Link_Group_0}]]
+set_property LOGIC.MGT_ERRCNT_RESET_CTRL 0 [get_hw_sio_links -of_objects [get_hw_sio_linkgroups {Link_Group_0}]]
+commit_hw_sio -non_blocking [get_hw_sio_links -of_objects [get_hw_sio_linkgroups {Link_Group_0}]]

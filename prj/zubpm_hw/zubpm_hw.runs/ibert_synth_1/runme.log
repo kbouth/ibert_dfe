@@ -1,0 +1,997 @@
+
+*** Running vivado
+    with args -log ibert.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source ibert.tcl
+
+
+****** Vivado v2022.2 (64-bit)
+  **** SW Build 3671981 on Fri Oct 14 04:59:54 MDT 2022
+  **** IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+source ibert.tcl -notrace
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: ibert
+Command: synth_design -top ibert -part xczu6eg-ffvb1156-1-e -incremental_mode off -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xczu6eg'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xczu6eg'
+INFO: [Device 21-403] Loading part xczu6eg-ffvb1156-1-e
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 223941
+INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [/tools/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
+WARNING: [Synth 8-10929] literal value 'b11 truncated to fit in 1 bits [/home/bouthsarath/ibert_dfe/prj/zubpm_hw/zubpm_hw.gen/sources_1/ip/ibert/hdl/ibert_ultrascale_gth_v1_4_syn_rfs.v:2736]
+WARNING: [Synth 8-10929] literal value 'b1101 truncated to fit in 3 bits [/home/bouthsarath/ibert_dfe/prj/zubpm_hw/zubpm_hw.gen/sources_1/ip/ibert/hdl/ibert_ultrascale_gth_v1_4_syn_rfs.v:2752]
+WARNING: [Synth 8-10929] literal value 'b1100 truncated to fit in 3 bits [/home/bouthsarath/ibert_dfe/prj/zubpm_hw/zubpm_hw.gen/sources_1/ip/ibert/hdl/ibert_ultrascale_gth_v1_4_syn_rfs.v:2792]
+WARNING: [Synth 8-10929] literal value 'b1000000 truncated to fit in 6 bits [/home/bouthsarath/ibert_dfe/prj/zubpm_hw/zubpm_hw.gen/sources_1/ip/ibert/hdl/ibert_ultrascale_gth_v1_4_syn_rfs.v:2803]
+WARNING: [Synth 8-10929] literal value 'b1101 truncated to fit in 3 bits [/home/bouthsarath/ibert_dfe/prj/zubpm_hw/zubpm_hw.gen/sources_1/ip/ibert/hdl/ibert_ultrascale_gth_v1_4_syn_rfs.v:13340]
+WARNING: [Synth 8-10929] literal value 'b11 truncated to fit in 1 bits [/home/bouthsarath/ibert_dfe/prj/zubpm_hw/zubpm_hw.gen/sources_1/ip/ibert/hdl/ibert_ultrascale_gth_v1_4_syn_rfs.v:13387]
+WARNING: [Synth 8-10929] literal value 'b11 truncated to fit in 1 bits [/home/bouthsarath/ibert_dfe/prj/zubpm_hw/zubpm_hw.gen/sources_1/ip/ibert/hdl/ibert_ultrascale_gth_v1_4_syn_rfs.v:13414]
+WARNING: [Synth 8-10929] literal value 'b10 truncated to fit in 1 bits [/home/bouthsarath/ibert_dfe/prj/zubpm_hw/zubpm_hw.gen/sources_1/ip/ibert/hdl/ibert_ultrascale_gth_v1_4_syn_rfs.v:13428]
+WARNING: [Synth 8-10929] literal value 'b11000 truncated to fit in 4 bits [/home/bouthsarath/ibert_dfe/prj/zubpm_hw/zubpm_hw.gen/sources_1/ip/ibert/hdl/ibert_ultrascale_gth_v1_4_syn_rfs.v:13441]
+WARNING: [Synth 8-10929] literal value 'b11 truncated to fit in 1 bits [/home/bouthsarath/ibert_dfe/prj/zubpm_hw/zubpm_hw.gen/sources_1/ip/ibert/hdl/ibert_ultrascale_gth_v1_4_syn_rfs.v:13474]
+WARNING: [Synth 8-10929] literal value 'b10 truncated to fit in 1 bits [/home/bouthsarath/ibert_dfe/prj/zubpm_hw/zubpm_hw.gen/sources_1/ip/ibert/hdl/ibert_ultrascale_gth_v1_4_syn_rfs.v:13491]
+INFO: [Synth 8-11241] undeclared symbol 'rxckcaldone_gt', assumed default net type 'wire' [/home/bouthsarath/ibert_dfe/prj/zubpm_hw/zubpm_hw.gen/sources_1/ip/ibert/hdl/ibert_ultrascale_gth_v1_4_syn_rfs.v:15630]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 3229.422 ; gain = 238.832 ; free physical = 20216 ; free virtual = 100834
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2523.441; parent = 2367.312; children = 156.129
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 4224.438; parent = 3251.238; children = 973.199
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3848] Net sl_iport0 in module/entity ibert does not have driver. [/home/bouthsarath/ibert_dfe/prj/zubpm_hw/zubpm_hw.gen/sources_1/ip/ibert/synth/ibert.v:125]
+WARNING: [Synth 8-3848] Net sl_iport1 in module/entity ibert does not have driver. [/home/bouthsarath/ibert_dfe/prj/zubpm_hw/zubpm_hw.gen/sources_1/ip/ibert/synth/ibert.v:126]
+WARNING: [Synth 8-3848] Net sl_iport2 in module/entity ibert does not have driver. [/home/bouthsarath/ibert_dfe/prj/zubpm_hw/zubpm_hw.gen/sources_1/ip/ibert/synth/ibert.v:127]
+WARNING: [Synth 8-3848] Net sl_iport3 in module/entity ibert does not have driver. [/home/bouthsarath/ibert_dfe/prj/zubpm_hw/zubpm_hw.gen/sources_1/ip/ibert/synth/ibert.v:128]
+WARNING: [Synth 8-3848] Net sl_iport4 in module/entity ibert does not have driver. [/home/bouthsarath/ibert_dfe/prj/zubpm_hw/zubpm_hw.gen/sources_1/ip/ibert/synth/ibert.v:129]
+WARNING: [Synth 8-3848] Net sl_iport5 in module/entity ibert does not have driver. [/home/bouthsarath/ibert_dfe/prj/zubpm_hw/zubpm_hw.gen/sources_1/ip/ibert/synth/ibert.v:130]
+WARNING: [Synth 8-3848] Net sl_iport6 in module/entity ibert does not have driver. [/home/bouthsarath/ibert_dfe/prj/zubpm_hw/zubpm_hw.gen/sources_1/ip/ibert/synth/ibert.v:131]
+WARNING: [Synth 8-3848] Net sl_iport7 in module/entity ibert does not have driver. [/home/bouthsarath/ibert_dfe/prj/zubpm_hw/zubpm_hw.gen/sources_1/ip/ibert/synth/ibert.v:132]
+WARNING: [Synth 8-3848] Net sl_iport8 in module/entity ibert does not have driver. [/home/bouthsarath/ibert_dfe/prj/zubpm_hw/zubpm_hw.gen/sources_1/ip/ibert/synth/ibert.v:133]
+WARNING: [Synth 8-3848] Net sl_iport9 in module/entity ibert does not have driver. [/home/bouthsarath/ibert_dfe/prj/zubpm_hw/zubpm_hw.gen/sources_1/ip/ibert/synth/ibert.v:134]
+WARNING: [Synth 8-7129] Port mb_rden_i in module ibert_lib_v1_0_7_mbio2xsdb is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mb_addr_i[1] in module ibert_lib_v1_0_7_mbio2xsdb is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mb_addr_i[0] in module ibert_lib_v1_0_7_mbio2xsdb is either unconnected or has no load
+WARNING: [Synth 8-7129] Port txusrclk_ext_o in module ibert_ultrascale_gth_v1_4_10_gthe4_quad_clocking is either unconnected or has no load
+WARNING: [Synth 8-7129] Port txusrclk2_ext_o in module ibert_ultrascale_gth_v1_4_10_gthe4_quad_clocking is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rxusrclk_ext_o in module ibert_ultrascale_gth_v1_4_10_gthe4_quad_clocking is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rxusrclk2_ext_o in module ibert_ultrascale_gth_v1_4_10_gthe4_quad_clocking is either unconnected or has no load
+WARNING: [Synth 8-7129] Port gtrefclk0_i in module ibert_ultrascale_gth_v1_4_10_gthe4_quad_clocking is either unconnected or has no load
+WARNING: [Synth 8-7129] Port gtrefclk1_i in module ibert_ultrascale_gth_v1_4_10_gthe4_quad_clocking is either unconnected or has no load
+WARNING: [Synth 8-7129] Port txusrclk_ext_i[1] in module ibert_ultrascale_gth_v1_4_10_gthe4_quad_clocking is either unconnected or has no load
+WARNING: [Synth 8-7129] Port txusrclk_ext_i[0] in module ibert_ultrascale_gth_v1_4_10_gthe4_quad_clocking is either unconnected or has no load
+WARNING: [Synth 8-7129] Port txusrclk2_ext_i[1] in module ibert_ultrascale_gth_v1_4_10_gthe4_quad_clocking is either unconnected or has no load
+WARNING: [Synth 8-7129] Port txusrclk2_ext_i[0] in module ibert_ultrascale_gth_v1_4_10_gthe4_quad_clocking is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rxusrclk_ext_i[1] in module ibert_ultrascale_gth_v1_4_10_gthe4_quad_clocking is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rxusrclk_ext_i[0] in module ibert_ultrascale_gth_v1_4_10_gthe4_quad_clocking is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rxusrclk2_ext_i[1] in module ibert_ultrascale_gth_v1_4_10_gthe4_quad_clocking is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rxusrclk2_ext_i[0] in module ibert_ultrascale_gth_v1_4_10_gthe4_quad_clocking is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rst_reg_i in module xsdbs_v1_0_2_reg__parameterized130 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_daddr_i[10] in module xsdbs_v1_0_2_reg__parameterized130 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_daddr_i[9] in module xsdbs_v1_0_2_reg__parameterized130 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_daddr_i[8] in module xsdbs_v1_0_2_reg__parameterized130 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_daddr_i[7] in module xsdbs_v1_0_2_reg__parameterized130 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_daddr_i[6] in module xsdbs_v1_0_2_reg__parameterized130 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_daddr_i[5] in module xsdbs_v1_0_2_reg__parameterized130 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_daddr_i[4] in module xsdbs_v1_0_2_reg__parameterized130 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_daddr_i[3] in module xsdbs_v1_0_2_reg__parameterized130 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_daddr_i[2] in module xsdbs_v1_0_2_reg__parameterized130 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_daddr_i[1] in module xsdbs_v1_0_2_reg__parameterized130 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_daddr_i[0] in module xsdbs_v1_0_2_reg__parameterized130 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_di_i[15] in module xsdbs_v1_0_2_reg__parameterized130 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_di_i[14] in module xsdbs_v1_0_2_reg__parameterized130 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_di_i[13] in module xsdbs_v1_0_2_reg__parameterized130 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_di_i[12] in module xsdbs_v1_0_2_reg__parameterized130 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_di_i[11] in module xsdbs_v1_0_2_reg__parameterized130 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_di_i[10] in module xsdbs_v1_0_2_reg__parameterized130 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_di_i[9] in module xsdbs_v1_0_2_reg__parameterized130 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_di_i[8] in module xsdbs_v1_0_2_reg__parameterized130 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_di_i[7] in module xsdbs_v1_0_2_reg__parameterized130 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_di_i[6] in module xsdbs_v1_0_2_reg__parameterized130 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_di_i[5] in module xsdbs_v1_0_2_reg__parameterized130 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_di_i[4] in module xsdbs_v1_0_2_reg__parameterized130 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_di_i[3] in module xsdbs_v1_0_2_reg__parameterized130 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_di_i[2] in module xsdbs_v1_0_2_reg__parameterized130 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_di_i[1] in module xsdbs_v1_0_2_reg__parameterized130 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_di_i[0] in module xsdbs_v1_0_2_reg__parameterized130 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_dwe_i in module xsdbs_v1_0_2_reg__parameterized130 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rst_reg_i in module xsdbs_v1_0_2_reg__parameterized50 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_daddr_i[10] in module xsdbs_v1_0_2_reg__parameterized50 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_daddr_i[9] in module xsdbs_v1_0_2_reg__parameterized50 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_daddr_i[8] in module xsdbs_v1_0_2_reg__parameterized50 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_daddr_i[7] in module xsdbs_v1_0_2_reg__parameterized50 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_daddr_i[6] in module xsdbs_v1_0_2_reg__parameterized50 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_daddr_i[5] in module xsdbs_v1_0_2_reg__parameterized50 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_daddr_i[4] in module xsdbs_v1_0_2_reg__parameterized50 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_daddr_i[3] in module xsdbs_v1_0_2_reg__parameterized50 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_daddr_i[2] in module xsdbs_v1_0_2_reg__parameterized50 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_daddr_i[1] in module xsdbs_v1_0_2_reg__parameterized50 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_daddr_i[0] in module xsdbs_v1_0_2_reg__parameterized50 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_di_i[15] in module xsdbs_v1_0_2_reg__parameterized50 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_di_i[14] in module xsdbs_v1_0_2_reg__parameterized50 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_di_i[13] in module xsdbs_v1_0_2_reg__parameterized50 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_di_i[12] in module xsdbs_v1_0_2_reg__parameterized50 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_di_i[11] in module xsdbs_v1_0_2_reg__parameterized50 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_di_i[10] in module xsdbs_v1_0_2_reg__parameterized50 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_di_i[9] in module xsdbs_v1_0_2_reg__parameterized50 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_di_i[8] in module xsdbs_v1_0_2_reg__parameterized50 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_di_i[7] in module xsdbs_v1_0_2_reg__parameterized50 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_di_i[6] in module xsdbs_v1_0_2_reg__parameterized50 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_di_i[5] in module xsdbs_v1_0_2_reg__parameterized50 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_di_i[4] in module xsdbs_v1_0_2_reg__parameterized50 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_di_i[3] in module xsdbs_v1_0_2_reg__parameterized50 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_di_i[2] in module xsdbs_v1_0_2_reg__parameterized50 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_di_i[1] in module xsdbs_v1_0_2_reg__parameterized50 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_di_i[0] in module xsdbs_v1_0_2_reg__parameterized50 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_dwe_i in module xsdbs_v1_0_2_reg__parameterized50 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rst_reg_i in module xsdbs_v1_0_2_reg__parameterized129 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_daddr_i[10] in module xsdbs_v1_0_2_reg__parameterized129 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_daddr_i[9] in module xsdbs_v1_0_2_reg__parameterized129 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_daddr_i[8] in module xsdbs_v1_0_2_reg__parameterized129 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_daddr_i[7] in module xsdbs_v1_0_2_reg__parameterized129 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_daddr_i[6] in module xsdbs_v1_0_2_reg__parameterized129 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_daddr_i[5] in module xsdbs_v1_0_2_reg__parameterized129 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_daddr_i[4] in module xsdbs_v1_0_2_reg__parameterized129 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_daddr_i[3] in module xsdbs_v1_0_2_reg__parameterized129 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_daddr_i[2] in module xsdbs_v1_0_2_reg__parameterized129 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_daddr_i[1] in module xsdbs_v1_0_2_reg__parameterized129 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_daddr_i[0] in module xsdbs_v1_0_2_reg__parameterized129 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_di_i[15] in module xsdbs_v1_0_2_reg__parameterized129 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_di_i[14] in module xsdbs_v1_0_2_reg__parameterized129 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_di_i[13] in module xsdbs_v1_0_2_reg__parameterized129 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_di_i[12] in module xsdbs_v1_0_2_reg__parameterized129 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_di_i[11] in module xsdbs_v1_0_2_reg__parameterized129 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_di_i[10] in module xsdbs_v1_0_2_reg__parameterized129 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_di_i[9] in module xsdbs_v1_0_2_reg__parameterized129 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_di_i[8] in module xsdbs_v1_0_2_reg__parameterized129 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_di_i[7] in module xsdbs_v1_0_2_reg__parameterized129 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_di_i[6] in module xsdbs_v1_0_2_reg__parameterized129 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_di_i[5] in module xsdbs_v1_0_2_reg__parameterized129 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_di_i[4] in module xsdbs_v1_0_2_reg__parameterized129 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_di_i[3] in module xsdbs_v1_0_2_reg__parameterized129 is either unconnected or has no load
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:10 ; elapsed = 00:00:27 . Memory (MB): peak = 3648.781 ; gain = 658.191 ; free physical = 10797 ; free virtual = 91419
+Synthesis current peak Physical Memory [PSS] (MB): peak = 11679.463; parent = 2666.921; children = 9299.242
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 18055.012; parent = 3648.785; children = 14406.227
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:10 ; elapsed = 00:00:27 . Memory (MB): peak = 3654.719 ; gain = 664.129 ; free physical = 10797 ; free virtual = 91419
+Synthesis current peak Physical Memory [PSS] (MB): peak = 11680.951; parent = 2666.921; children = 9299.242
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 18060.949; parent = 3654.723; children = 14406.227
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:27 . Memory (MB): peak = 3654.719 ; gain = 664.129 ; free physical = 10797 ; free virtual = 91419
+Synthesis current peak Physical Memory [PSS] (MB): peak = 11680.951; parent = 2666.921; children = 9299.242
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 18060.949; parent = 3654.723; children = 14406.227
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00.46 ; elapsed = 00:00:00.46 . Memory (MB): peak = 3668.656 ; gain = 0.000 ; free physical = 10848 ; free virtual = 91470
+INFO: [Netlist 29-17] Analyzing 896 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/bouthsarath/ibert_dfe/prj/zubpm_hw/zubpm_hw.gen/sources_1/ip/ibert/synth/ibert_ooc.xdc] for cell 'inst'
+Finished Parsing XDC File [/home/bouthsarath/ibert_dfe/prj/zubpm_hw/zubpm_hw.gen/sources_1/ip/ibert/synth/ibert_ooc.xdc] for cell 'inst'
+Parsing XDC File [/home/bouthsarath/ibert_dfe/prj/zubpm_hw/zubpm_hw.gen/sources_1/ip/ibert/synth/ibert.xdc] for cell 'inst'
+Finished Parsing XDC File [/home/bouthsarath/ibert_dfe/prj/zubpm_hw/zubpm_hw.gen/sources_1/ip/ibert/synth/ibert.xdc] for cell 'inst'
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/bouthsarath/ibert_dfe/prj/zubpm_hw/zubpm_hw.gen/sources_1/ip/ibert/synth/ibert.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/ibert_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/ibert_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [/home/bouthsarath/ibert_dfe/prj/zubpm_hw/zubpm_hw.gen/sources_1/ip/ibert/synth/sw_mcs_all.xdc] for cell 'inst'
+Finished Parsing XDC File [/home/bouthsarath/ibert_dfe/prj/zubpm_hw/zubpm_hw.gen/sources_1/ip/ibert/synth/sw_mcs_all.xdc] for cell 'inst'
+Parsing XDC File [/home/bouthsarath/ibert_dfe/prj/zubpm_hw/zubpm_hw.gen/sources_1/ip/ibert/synth/attributes.xdc] for cell 'inst'
+Finished Parsing XDC File [/home/bouthsarath/ibert_dfe/prj/zubpm_hw/zubpm_hw.gen/sources_1/ip/ibert/synth/attributes.xdc] for cell 'inst'
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/bouthsarath/ibert_dfe/prj/zubpm_hw/zubpm_hw.gen/sources_1/ip/ibert/synth/attributes.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/ibert_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/ibert_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [/home/bouthsarath/ibert_dfe/prj/zubpm_hw/zubpm_hw.runs/ibert_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [/home/bouthsarath/ibert_dfe/prj/zubpm_hw/zubpm_hw.runs/ibert_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 3812.438 ; gain = 0.000 ; free physical = 10869 ; free virtual = 91491
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 734 instances were transformed.
+  DSP48E => DSP48E2 (DSP_ALU, DSP_A_B_DATA, DSP_C_DATA, DSP_MULTIPLIER, DSP_M_DATA, DSP_OUTPUT, DSP_PREADD, DSP_PREADD_DATA): 16 instances
+  FD => FDRE: 64 instances
+  FDE => FDRE: 92 instances
+  FDR => FDRE: 66 instances
+  FDRSE => FDRSE (FDRE, LUT4, VCC): 10 instances
+  FDS => FDSE: 10 instances
+  LUT6_2 => LUT6_2 (LUT5, LUT6): 162 instances
+  MULT_AND => LUT2: 6 instances
+  MUXCY_L => MUXCY: 148 instances
+  RAM32X1D => RAM32X1D (RAMD32(x2)): 128 instances
+  RAMB36E1 => RAMB36E2: 32 instances
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.4 ; elapsed = 00:00:00.36 . Memory (MB): peak = 3812.438 ; gain = 0.000 ; free physical = 10861 ; free virtual = 91484
+INFO: [Designutils 20-5008] Incremental synthesis strategy off
+INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [/tools/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:22 ; elapsed = 00:00:39 . Memory (MB): peak = 3812.438 ; gain = 821.848 ; free physical = 11156 ; free virtual = 91778
+Synthesis current peak Physical Memory [PSS] (MB): peak = 11798.279; parent = 2666.921; children = 9299.242
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 18186.652; parent = 3780.426; children = 14406.227
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xczu6eg-ffvb1156-1-e
+INFO: [Synth 8-6742] Reading net delay rules and data
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:22 ; elapsed = 00:00:39 . Memory (MB): peak = 3812.438 ; gain = 821.848 ; free physical = 11156 ; free virtual = 91778
+Synthesis current peak Physical Memory [PSS] (MB): peak = 11798.279; parent = 2666.921; children = 9299.242
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 18186.652; parent = 3780.426; children = 14406.227
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property KEEP_HIERARCHY = SOFT for inst. (constraint file  /home/bouthsarath/ibert_dfe/prj/zubpm_hw/zubpm_hw.runs/ibert_synth_1/dont_touch.xdc, line 9).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:24 ; elapsed = 00:00:41 . Memory (MB): peak = 3812.438 ; gain = 821.848 ; free physical = 11173 ; free virtual = 91795
+Synthesis current peak Physical Memory [PSS] (MB): peak = 11798.279; parent = 2666.921; children = 9299.242
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 18186.652; parent = 3780.426; children = 14406.227
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'arb_state_reg' in module 'gtwizard_ultrascale_v1_7_14_gte4_drp_arb'
+INFO: [Synth 8-802] inferred FSM for state register 'arb_state_reg' in module 'ibert_lib_v1_0_7_drp_arbiter'
+INFO: [Synth 8-802] inferred FSM for state register 'sm_reset_all_reg' in module 'gtwizard_ultrascale_v1_7_14_gtwiz_reset'
+INFO: [Synth 8-802] inferred FSM for state register 'sm_reset_tx_reg' in module 'gtwizard_ultrascale_v1_7_14_gtwiz_reset'
+INFO: [Synth 8-802] inferred FSM for state register 'sm_reset_rx_reg' in module 'gtwizard_ultrascale_v1_7_14_gtwiz_reset'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'ibert_lib_v1_0_7_rxcdr_reset'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+               ARB_START |                             0001 |                             0001
+                ARB_WAIT |                             0010 |                             0010
+              ARB_REPORT |                             0100 |                             0100
+                 ARB_INC |                             1000 |                             1000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'arb_state_reg' in module 'gtwizard_ultrascale_v1_7_14_gte4_drp_arb'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+               ARB_START |                             0001 |                             0001
+                ARB_WAIT |                             0010 |                             0010
+              ARB_REPORT |                             0100 |                             0100
+                 ARB_INC |                             1000 |                             1000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'arb_state_reg' in module 'ibert_lib_v1_0_7_drp_arbiter'
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 16 for RAM "ibert_ultrascale_gth_v1_4_10_gthe4_channel_regs:/myram_reg"
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+      ST_RESET_TX_BRANCH |                              000 |                              000
+         ST_RESET_TX_PLL |                              001 |                              001
+    ST_RESET_TX_DATAPATH |                              010 |                              010
+   ST_RESET_TX_WAIT_LOCK |                              011 |                              011
+ST_RESET_TX_WAIT_USERRDY |                              100 |                              100
+ST_RESET_TX_WAIT_RESETDONE |                              101 |                              101
+        ST_RESET_TX_IDLE |                              110 |                              110
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'sm_reset_tx_reg' using encoding 'sequential' in module 'gtwizard_ultrascale_v1_7_14_gtwiz_reset'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+      ST_RESET_RX_BRANCH |                              000 |                              000
+         ST_RESET_RX_PLL |                              001 |                              001
+    ST_RESET_RX_DATAPATH |                              010 |                              010
+   ST_RESET_RX_WAIT_LOCK |                              011 |                              011
+    ST_RESET_RX_WAIT_CDR |                              100 |                              100
+ST_RESET_RX_WAIT_USERRDY |                              101 |                              101
+ST_RESET_RX_WAIT_RESETDONE |                              110 |                              110
+        ST_RESET_RX_IDLE |                              111 |                              111
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'sm_reset_rx_reg' using encoding 'sequential' in module 'gtwizard_ultrascale_v1_7_14_gtwiz_reset'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+     ST_RESET_ALL_BRANCH |                              000 |                              001
+     ST_RESET_ALL_TX_PLL |                              001 |                              010
+ST_RESET_ALL_TX_PLL_WAIT |                              010 |                              011
+      ST_RESET_ALL_RX_DP |                              011 |                              100
+     ST_RESET_ALL_RX_PLL |                              100 |                              101
+    ST_RESET_ALL_RX_WAIT |                              101 |                              110
+                  iSTATE |                              110 |                              111
+       ST_RESET_ALL_INIT |                              111 |                              000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'sm_reset_all_reg' using encoding 'sequential' in module 'gtwizard_ultrascale_v1_7_14_gtwiz_reset'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                   READY |                               00 |                               00
+         ASSERT_CDRRESET |                               01 |                               01
+                    WAIT |                               10 |                               10
+        WAIT_RXRESETDONE |                               11 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'ibert_lib_v1_0_7_rxcdr_reset'
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 16 for RAM "ibert_ultrascale_gth_v1_4_10_gthe4_channel_regs__parameterized0:/myram_reg"
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 16 for RAM "ibert_ultrascale_gth_v1_4_10_gthe4_channel_regs__parameterized1:/myram_reg"
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 16 for RAM "ibert_ultrascale_gth_v1_4_10_gthe4_channel_regs__parameterized2:/myram_reg"
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 16 for RAM "ibert_ultrascale_gth_v1_4_10_gthe4_channel_regs__parameterized3:/myram_reg"
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 16 for RAM "ibert_ultrascale_gth_v1_4_10_gthe4_channel_regs__parameterized4:/myram_reg"
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 16 for RAM "ibert_ultrascale_gth_v1_4_10_gthe4_channel_regs__parameterized5:/myram_reg"
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 16 for RAM "ibert_ultrascale_gth_v1_4_10_gthe4_channel_regs__parameterized6:/myram_reg"
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:27 ; elapsed = 00:00:44 . Memory (MB): peak = 3812.438 ; gain = 821.848 ; free physical = 11228 ; free virtual = 91857
+Synthesis current peak Physical Memory [PSS] (MB): peak = 11798.279; parent = 2666.921; children = 9299.242
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 18186.652; parent = 3780.426; children = 14406.227
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 1973 (col length:168)
+BRAMs: 1428 (col length: RAMB18 168 RAMB36 84)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3936] Found unconnected internal register 'chk40.patchk40/seed_r3_reg' and it is trimmed from '40' to '31' bits. [/home/bouthsarath/ibert_dfe/prj/zubpm_hw/zubpm_hw.gen/sources_1/ip/ibert/hdl/ibert_lib_v1_0_syn_rfs.v:1066]
+WARNING: [Synth 8-3936] Found unconnected internal register 'chk40.patchk40/errored_bits_o_reg' and it is trimmed from '9' to '8' bits. [/home/bouthsarath/ibert_dfe/prj/zubpm_hw/zubpm_hw.gen/sources_1/ip/ibert/hdl/ibert_lib_v1_0_syn_rfs.v:1172]
+WARNING: [Synth 8-3936] Found unconnected internal register 'chk40.patchk40/i_ones_counter/ones_cnt_o_reg' and it is trimmed from '9' to '8' bits. [/home/bouthsarath/ibert_dfe/prj/zubpm_hw/zubpm_hw.gen/sources_1/ip/ibert/hdl/ibert_lib_v1_0_syn_rfs.v:822]
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 16 for RAM "\CH[1].u_ch /U_CHANNEL_REGS/myram_reg"
+INFO: [Synth 8-3886] merging instance 'u_common/INTERNAL_MB.mcs_0/microblaze_I/MicroBlaze_Core_I/Area.Core/Decode_I/active_wakeup_reg' (FDR) to 'u_common/INTERNAL_MB.mcs_0/microblaze_I/MicroBlaze_Core_I/Area.Core/Decode_I/Write_FPU_result_reg'
+INFO: [Synth 8-3886] merging instance 'u_common/INTERNAL_MB.mcs_0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/INTC_CISR_reg[24]' (FDR) to 'u_common/INTERNAL_MB.mcs_0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/INTC_CISR_reg[31]'
+INFO: [Synth 8-3886] merging instance 'u_common/INTERNAL_MB.mcs_0/microblaze_I/MicroBlaze_Core_I/Area.Core/Decode_I/take_NM_Break_reg' (FDR) to 'u_common/INTERNAL_MB.mcs_0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/INTC_CISR_reg[31]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u_common/\INTERNAL_MB.mcs_0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[24].fdr_i )
+INFO: [Synth 8-3886] merging instance 'u_common/INTERNAL_MB.mcs_0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/INTC_CISR_reg[16]' (FDR) to 'u_common/INTERNAL_MB.mcs_0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/INTC_CISR_reg[31]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u_common/\INTERNAL_MB.mcs_0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[16].fdr_i )
+INFO: [Synth 8-3886] merging instance 'u_common/INTERNAL_MB.mcs_0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/INTC_CISR_reg[8]' (FDR) to 'u_common/INTERNAL_MB.mcs_0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/INTC_CISR_reg[31]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u_common/\INTERNAL_MB.mcs_0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[8].fdr_i )
+INFO: [Synth 8-3886] merging instance 'u_common/INTERNAL_MB.mcs_0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/INTC_CISR_reg[0]' (FDR) to 'u_common/INTERNAL_MB.mcs_0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/INTC_CISR_reg[31]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u_common/\INTERNAL_MB.mcs_0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[0].fdr_i )
+INFO: [Synth 8-3886] merging instance 'u_common/INTERNAL_MB.mcs_0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/INTC_CISR_reg[25]' (FDR) to 'u_common/INTERNAL_MB.mcs_0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/INTC_CISR_reg[31]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u_common/\INTERNAL_MB.mcs_0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[25].fdr_i )
+INFO: [Synth 8-3886] merging instance 'u_common/INTERNAL_MB.mcs_0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/INTC_CISR_reg[17]' (FDR) to 'u_common/INTERNAL_MB.mcs_0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/INTC_CISR_reg[31]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u_common/\INTERNAL_MB.mcs_0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[17].fdr_i )
+INFO: [Synth 8-3886] merging instance 'u_common/INTERNAL_MB.mcs_0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/INTC_CISR_reg[9]' (FDR) to 'u_common/INTERNAL_MB.mcs_0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/INTC_CISR_reg[31]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u_common/\INTERNAL_MB.mcs_0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[9].fdr_i )
+INFO: [Synth 8-3886] merging instance 'u_common/INTERNAL_MB.mcs_0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/INTC_CISR_reg[1]' (FDR) to 'u_common/INTERNAL_MB.mcs_0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/INTC_CISR_reg[31]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u_common/\INTERNAL_MB.mcs_0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[1].fdr_i )
+INFO: [Synth 8-3886] merging instance 'u_common/INTERNAL_MB.mcs_0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/INTC_CISR_reg[26]' (FDR) to 'u_common/INTERNAL_MB.mcs_0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/INTC_CISR_reg[31]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u_common/\INTERNAL_MB.mcs_0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[26].fdr_i )
+INFO: [Synth 8-3886] merging instance 'u_common/INTERNAL_MB.mcs_0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/INTC_CISR_reg[18]' (FDR) to 'u_common/INTERNAL_MB.mcs_0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/INTC_CISR_reg[31]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u_common/\INTERNAL_MB.mcs_0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[18].fdr_i )
+INFO: [Synth 8-3886] merging instance 'u_common/INTERNAL_MB.mcs_0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/INTC_CISR_reg[10]' (FDR) to 'u_common/INTERNAL_MB.mcs_0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/INTC_CISR_reg[31]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u_common/\INTERNAL_MB.mcs_0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[10].fdr_i )
+INFO: [Synth 8-3886] merging instance 'u_common/INTERNAL_MB.mcs_0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/INTC_CISR_reg[2]' (FDR) to 'u_common/INTERNAL_MB.mcs_0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/INTC_CISR_reg[31]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u_common/\INTERNAL_MB.mcs_0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[2].fdr_i )
+INFO: [Synth 8-3886] merging instance 'u_common/INTERNAL_MB.mcs_0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/INTC_CISR_reg[27]' (FDR) to 'u_common/INTERNAL_MB.mcs_0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/INTC_CISR_reg[31]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u_common/\INTERNAL_MB.mcs_0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[27].fdr_i )
+INFO: [Synth 8-3886] merging instance 'u_common/INTERNAL_MB.mcs_0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/INTC_CISR_reg[19]' (FDR) to 'u_common/INTERNAL_MB.mcs_0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/INTC_CISR_reg[31]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u_common/\INTERNAL_MB.mcs_0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[19].fdr_i )
+INFO: [Synth 8-3886] merging instance 'u_common/INTERNAL_MB.mcs_0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/INTC_CISR_reg[11]' (FDR) to 'u_common/INTERNAL_MB.mcs_0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/INTC_CISR_reg[31]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u_common/\INTERNAL_MB.mcs_0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[11].fdr_i )
+INFO: [Synth 8-3886] merging instance 'u_common/INTERNAL_MB.mcs_0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/INTC_CISR_reg[3]' (FDR) to 'u_common/INTERNAL_MB.mcs_0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/INTC_CISR_reg[31]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u_common/\INTERNAL_MB.mcs_0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[3].fdr_i )
+INFO: [Synth 8-3886] merging instance 'u_common/INTERNAL_MB.mcs_0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/INTC_CISR_reg[28]' (FDR) to 'u_common/INTERNAL_MB.mcs_0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/INTC_CISR_reg[31]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u_common/\INTERNAL_MB.mcs_0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[28].fdr_i )
+INFO: [Synth 8-3886] merging instance 'u_common/INTERNAL_MB.mcs_0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/INTC_CISR_reg[20]' (FDR) to 'u_common/INTERNAL_MB.mcs_0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/INTC_CISR_reg[31]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u_common/\INTERNAL_MB.mcs_0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[20].fdr_i )
+INFO: [Synth 8-3886] merging instance 'u_common/INTERNAL_MB.mcs_0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/INTC_CISR_reg[12]' (FDR) to 'u_common/INTERNAL_MB.mcs_0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/INTC_CISR_reg[31]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u_common/\INTERNAL_MB.mcs_0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[12].fdr_i )
+INFO: [Synth 8-3886] merging instance 'u_common/INTERNAL_MB.mcs_0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/INTC_CISR_reg[4]' (FDR) to 'u_common/INTERNAL_MB.mcs_0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/INTC_CISR_reg[31]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u_common/\INTERNAL_MB.mcs_0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[4].fdr_i )
+INFO: [Synth 8-3886] merging instance 'u_common/INTERNAL_MB.mcs_0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/INTC_CISR_reg[29]' (FDR) to 'u_common/INTERNAL_MB.mcs_0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/INTC_CISR_reg[31]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u_common/\INTERNAL_MB.mcs_0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[29].fdr_i )
+INFO: [Synth 8-3886] merging instance 'u_common/INTERNAL_MB.mcs_0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/INTC_CISR_reg[21]' (FDR) to 'u_common/INTERNAL_MB.mcs_0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/INTC_CISR_reg[31]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u_common/\INTERNAL_MB.mcs_0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[21].fdr_i )
+INFO: [Synth 8-3886] merging instance 'u_common/INTERNAL_MB.mcs_0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/INTC_CISR_reg[13]' (FDR) to 'u_common/INTERNAL_MB.mcs_0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/INTC_CISR_reg[31]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u_common/\INTERNAL_MB.mcs_0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[13].fdr_i )
+INFO: [Synth 8-3886] merging instance 'u_common/INTERNAL_MB.mcs_0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/INTC_CISR_reg[5]' (FDR) to 'u_common/INTERNAL_MB.mcs_0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/INTC_CISR_reg[31]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u_common/\INTERNAL_MB.mcs_0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[5].fdr_i )
+INFO: [Synth 8-3886] merging instance 'u_common/INTERNAL_MB.mcs_0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/INTC_CISR_reg[30]' (FDR) to 'u_common/INTERNAL_MB.mcs_0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/INTC_CISR_reg[31]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u_common/\INTERNAL_MB.mcs_0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[30].fdr_i )
+INFO: [Synth 8-3886] merging instance 'u_common/INTERNAL_MB.mcs_0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/INTC_CISR_reg[22]' (FDR) to 'u_common/INTERNAL_MB.mcs_0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/INTC_CISR_reg[31]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u_common/\INTERNAL_MB.mcs_0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[22].fdr_i )
+INFO: [Synth 8-3886] merging instance 'u_common/INTERNAL_MB.mcs_0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/INTC_CISR_reg[14]' (FDR) to 'u_common/INTERNAL_MB.mcs_0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/INTC_CISR_reg[31]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u_common/\INTERNAL_MB.mcs_0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[14].fdr_i )
+INFO: [Synth 8-3886] merging instance 'u_common/INTERNAL_MB.mcs_0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/INTC_CISR_reg[6]' (FDR) to 'u_common/INTERNAL_MB.mcs_0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/INTC_CISR_reg[31]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u_common/\INTERNAL_MB.mcs_0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[6].fdr_i )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u_common/\INTERNAL_MB.mcs_0/microblaze_I/MicroBlaze_Core_I/Area.Core/Decode_I/take_Break_reg )
+INFO: [Synth 8-3886] merging instance 'u_common/INTERNAL_MB.mcs_0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/INTC_CISR_reg[23]' (FDR) to 'u_common/INTERNAL_MB.mcs_0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/INTC_CISR_reg[31]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u_common/\INTERNAL_MB.mcs_0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[23].fdr_i )
+INFO: [Synth 8-3886] merging instance 'u_common/INTERNAL_MB.mcs_0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/INTC_CISR_reg[15]' (FDR) to 'u_common/INTERNAL_MB.mcs_0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/INTC_CISR_reg[31]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u_common/\INTERNAL_MB.mcs_0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[15].fdr_i )
+INFO: [Synth 8-3886] merging instance 'u_common/INTERNAL_MB.mcs_0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/INTC_CISR_reg[7]' (FDR) to 'u_common/INTERNAL_MB.mcs_0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/INTC_CISR_reg[31]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u_common/\INTERNAL_MB.mcs_0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[7].fdr_i )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u_common/\INTERNAL_MB.mcs_0/microblaze_I/MicroBlaze_Core_I/Area.Core/Decode_I/Mul_Handling.bs_first_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u_common/\INTERNAL_MB.mcs_0/microblaze_I/MicroBlaze_Core_I/Area.Core/Decode_I/Mul_Handling.pvr_first_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u_common/\INTERNAL_MB.mcs_0/microblaze_I/MicroBlaze_Core_I/Area.Core/Decode_I/Mul_Handling.mul_first_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u_common/\INTERNAL_MB.mcs_0/microblaze_I/MicroBlaze_Core_I/Area.Core/Decode_I/Mul_Handling.div_first_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u_common/\INTERNAL_MB.mcs_0/microblaze_I/MicroBlaze_Core_I/Area.Core/Decode_I/Mul_Handling.wic_first_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u_common/\INTERNAL_MB.mcs_0/microblaze_I/MicroBlaze_Core_I/Area.Core/Decode_I/Mul_Handling.mul_second_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u_common/\INTERNAL_MB.mcs_0/microblaze_I/MicroBlaze_Core_I/Area.Core/Decode_I/Mul_Handling.wdc_first_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u_common/\INTERNAL_MB.mcs_0/microblaze_I/MicroBlaze_Core_I/Area.Core/Decode_I/Mul_Handling.fpu_first_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u_common/\INTERNAL_MB.mcs_0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/INTC_CISR_reg[31] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u_common/\INTERNAL_MB.mcs_0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[31].fdr_i )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u_common/\INTERNAL_MB.mcs_0/microblaze_I/MicroBlaze_Core_I/Area.Core/Decode_I/Reverse_Mem_Access_reg )
+INFO: [Synth 8-3886] merging instance 'u_common/INTERNAL_MB.mcs_0/microblaze_I/MicroBlaze_Core_I/Area.Core/Decode_I/Write_FPU_result_reg' (FDR) to 'u_common/INTERNAL_MB.mcs_0/microblaze_I/MicroBlaze_Core_I/Area.Core/Decode_I/break_Pipe_i_reg'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u_common/\INTERNAL_MB.mcs_0/microblaze_I/MicroBlaze_Core_I/Area.Core/Decode_I/Write_DIV_result_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u_common/\INTERNAL_MB.mcs_0/microblaze_I/MicroBlaze_Core_I/Area.Core/Decode_I/take_Break_2nd_cycle_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u_common/\INTERNAL_MB.mcs_0/microblaze_I/MicroBlaze_Core_I/Area.Core/Decode_I/break_Pipe_i_reg )
+WARNING: [Synth 8-3332] Sequential element (INTERNAL_MB.mcs_0/microblaze_I/MicroBlaze_Core_I/Area.Core/Data_Flow_I/Result_Mux_I/Result_Mux_Bits[31].Result_Mux_Bit_I/EX_Result_DFF/Using_FPGA.Native) is unused and will be removed from module ibert_ultrascale_gth_v1_4_10_gthe4_common_slave.
+WARNING: [Synth 8-3332] Sequential element (INTERNAL_MB.mcs_0/microblaze_I/MicroBlaze_Core_I/Area.Core/Data_Flow_I/Result_Mux_I/Result_Mux_Bits[30].Result_Mux_Bit_I/EX_Result_DFF/Using_FPGA.Native) is unused and will be removed from module ibert_ultrascale_gth_v1_4_10_gthe4_common_slave.
+WARNING: [Synth 8-3332] Sequential element (INTERNAL_MB.mcs_0/microblaze_I/MicroBlaze_Core_I/Area.Core/Data_Flow_I/Result_Mux_I/Result_Mux_Bits[29].Result_Mux_Bit_I/EX_Result_DFF/Using_FPGA.Native) is unused and will be removed from module ibert_ultrascale_gth_v1_4_10_gthe4_common_slave.
+WARNING: [Synth 8-3332] Sequential element (INTERNAL_MB.mcs_0/microblaze_I/MicroBlaze_Core_I/Area.Core/Data_Flow_I/Result_Mux_I/Result_Mux_Bits[28].Result_Mux_Bit_I/EX_Result_DFF/Using_FPGA.Native) is unused and will be removed from module ibert_ultrascale_gth_v1_4_10_gthe4_common_slave.
+WARNING: [Synth 8-3332] Sequential element (INTERNAL_MB.mcs_0/microblaze_I/MicroBlaze_Core_I/Area.Core/Data_Flow_I/Result_Mux_I/Result_Mux_Bits[27].Result_Mux_Bit_I/EX_Result_DFF/Using_FPGA.Native) is unused and will be removed from module ibert_ultrascale_gth_v1_4_10_gthe4_common_slave.
+WARNING: [Synth 8-3332] Sequential element (INTERNAL_MB.mcs_0/microblaze_I/MicroBlaze_Core_I/Area.Core/Data_Flow_I/Result_Mux_I/Result_Mux_Bits[26].Result_Mux_Bit_I/EX_Result_DFF/Using_FPGA.Native) is unused and will be removed from module ibert_ultrascale_gth_v1_4_10_gthe4_common_slave.
+WARNING: [Synth 8-3332] Sequential element (INTERNAL_MB.mcs_0/microblaze_I/MicroBlaze_Core_I/Area.Core/Data_Flow_I/Result_Mux_I/Result_Mux_Bits[25].Result_Mux_Bit_I/EX_Result_DFF/Using_FPGA.Native) is unused and will be removed from module ibert_ultrascale_gth_v1_4_10_gthe4_common_slave.
+WARNING: [Synth 8-3332] Sequential element (INTERNAL_MB.mcs_0/microblaze_I/MicroBlaze_Core_I/Area.Core/Data_Flow_I/Result_Mux_I/Result_Mux_Bits[24].Result_Mux_Bit_I/EX_Result_DFF/Using_FPGA.Native) is unused and will be removed from module ibert_ultrascale_gth_v1_4_10_gthe4_common_slave.
+WARNING: [Synth 8-3332] Sequential element (INTERNAL_MB.mcs_0/microblaze_I/MicroBlaze_Core_I/Area.Core/Data_Flow_I/Result_Mux_I/Result_Mux_Bits[23].Result_Mux_Bit_I/EX_Result_DFF/Using_FPGA.Native) is unused and will be removed from module ibert_ultrascale_gth_v1_4_10_gthe4_common_slave.
+WARNING: [Synth 8-3332] Sequential element (INTERNAL_MB.mcs_0/microblaze_I/MicroBlaze_Core_I/Area.Core/Data_Flow_I/Result_Mux_I/Result_Mux_Bits[22].Result_Mux_Bit_I/EX_Result_DFF/Using_FPGA.Native) is unused and will be removed from module ibert_ultrascale_gth_v1_4_10_gthe4_common_slave.
+WARNING: [Synth 8-3332] Sequential element (INTERNAL_MB.mcs_0/microblaze_I/MicroBlaze_Core_I/Area.Core/Data_Flow_I/Result_Mux_I/Result_Mux_Bits[21].Result_Mux_Bit_I/EX_Result_DFF/Using_FPGA.Native) is unused and will be removed from module ibert_ultrascale_gth_v1_4_10_gthe4_common_slave.
+WARNING: [Synth 8-3332] Sequential element (INTERNAL_MB.mcs_0/microblaze_I/MicroBlaze_Core_I/Area.Core/Data_Flow_I/Result_Mux_I/Result_Mux_Bits[20].Result_Mux_Bit_I/EX_Result_DFF/Using_FPGA.Native) is unused and will be removed from module ibert_ultrascale_gth_v1_4_10_gthe4_common_slave.
+WARNING: [Synth 8-3332] Sequential element (INTERNAL_MB.mcs_0/microblaze_I/MicroBlaze_Core_I/Area.Core/Data_Flow_I/Result_Mux_I/Result_Mux_Bits[19].Result_Mux_Bit_I/EX_Result_DFF/Using_FPGA.Native) is unused and will be removed from module ibert_ultrascale_gth_v1_4_10_gthe4_common_slave.
+WARNING: [Synth 8-3332] Sequential element (INTERNAL_MB.mcs_0/microblaze_I/MicroBlaze_Core_I/Area.Core/Data_Flow_I/Result_Mux_I/Result_Mux_Bits[18].Result_Mux_Bit_I/EX_Result_DFF/Using_FPGA.Native) is unused and will be removed from module ibert_ultrascale_gth_v1_4_10_gthe4_common_slave.
+WARNING: [Synth 8-3332] Sequential element (INTERNAL_MB.mcs_0/microblaze_I/MicroBlaze_Core_I/Area.Core/Data_Flow_I/Result_Mux_I/Result_Mux_Bits[17].Result_Mux_Bit_I/EX_Result_DFF/Using_FPGA.Native) is unused and will be removed from module ibert_ultrascale_gth_v1_4_10_gthe4_common_slave.
+WARNING: [Synth 8-3332] Sequential element (INTERNAL_MB.mcs_0/microblaze_I/MicroBlaze_Core_I/Area.Core/Data_Flow_I/Result_Mux_I/Result_Mux_Bits[16].Result_Mux_Bit_I/EX_Result_DFF/Using_FPGA.Native) is unused and will be removed from module ibert_ultrascale_gth_v1_4_10_gthe4_common_slave.
+WARNING: [Synth 8-3332] Sequential element (INTERNAL_MB.mcs_0/microblaze_I/MicroBlaze_Core_I/Area.Core/Data_Flow_I/Result_Mux_I/Result_Mux_Bits[15].Result_Mux_Bit_I/EX_Result_DFF/Using_FPGA.Native) is unused and will be removed from module ibert_ultrascale_gth_v1_4_10_gthe4_common_slave.
+WARNING: [Synth 8-3332] Sequential element (INTERNAL_MB.mcs_0/microblaze_I/MicroBlaze_Core_I/Area.Core/Data_Flow_I/Result_Mux_I/Result_Mux_Bits[14].Result_Mux_Bit_I/EX_Result_DFF/Using_FPGA.Native) is unused and will be removed from module ibert_ultrascale_gth_v1_4_10_gthe4_common_slave.
+WARNING: [Synth 8-3332] Sequential element (INTERNAL_MB.mcs_0/microblaze_I/MicroBlaze_Core_I/Area.Core/Data_Flow_I/Result_Mux_I/Result_Mux_Bits[13].Result_Mux_Bit_I/EX_Result_DFF/Using_FPGA.Native) is unused and will be removed from module ibert_ultrascale_gth_v1_4_10_gthe4_common_slave.
+WARNING: [Synth 8-3332] Sequential element (INTERNAL_MB.mcs_0/microblaze_I/MicroBlaze_Core_I/Area.Core/Data_Flow_I/Result_Mux_I/Result_Mux_Bits[12].Result_Mux_Bit_I/EX_Result_DFF/Using_FPGA.Native) is unused and will be removed from module ibert_ultrascale_gth_v1_4_10_gthe4_common_slave.
+WARNING: [Synth 8-3332] Sequential element (INTERNAL_MB.mcs_0/microblaze_I/MicroBlaze_Core_I/Area.Core/Data_Flow_I/Result_Mux_I/Result_Mux_Bits[11].Result_Mux_Bit_I/EX_Result_DFF/Using_FPGA.Native) is unused and will be removed from module ibert_ultrascale_gth_v1_4_10_gthe4_common_slave.
+WARNING: [Synth 8-3332] Sequential element (INTERNAL_MB.mcs_0/microblaze_I/MicroBlaze_Core_I/Area.Core/Data_Flow_I/Result_Mux_I/Result_Mux_Bits[10].Result_Mux_Bit_I/EX_Result_DFF/Using_FPGA.Native) is unused and will be removed from module ibert_ultrascale_gth_v1_4_10_gthe4_common_slave.
+WARNING: [Synth 8-3332] Sequential element (INTERNAL_MB.mcs_0/microblaze_I/MicroBlaze_Core_I/Area.Core/Data_Flow_I/Result_Mux_I/Result_Mux_Bits[9].Result_Mux_Bit_I/EX_Result_DFF/Using_FPGA.Native) is unused and will be removed from module ibert_ultrascale_gth_v1_4_10_gthe4_common_slave.
+WARNING: [Synth 8-3332] Sequential element (INTERNAL_MB.mcs_0/microblaze_I/MicroBlaze_Core_I/Area.Core/Data_Flow_I/Result_Mux_I/Result_Mux_Bits[8].Result_Mux_Bit_I/EX_Result_DFF/Using_FPGA.Native) is unused and will be removed from module ibert_ultrascale_gth_v1_4_10_gthe4_common_slave.
+WARNING: [Synth 8-3332] Sequential element (INTERNAL_MB.mcs_0/microblaze_I/MicroBlaze_Core_I/Area.Core/Data_Flow_I/Result_Mux_I/Result_Mux_Bits[7].Result_Mux_Bit_I/EX_Result_DFF/Using_FPGA.Native) is unused and will be removed from module ibert_ultrascale_gth_v1_4_10_gthe4_common_slave.
+WARNING: [Synth 8-3332] Sequential element (INTERNAL_MB.mcs_0/microblaze_I/MicroBlaze_Core_I/Area.Core/Data_Flow_I/Result_Mux_I/Result_Mux_Bits[6].Result_Mux_Bit_I/EX_Result_DFF/Using_FPGA.Native) is unused and will be removed from module ibert_ultrascale_gth_v1_4_10_gthe4_common_slave.
+WARNING: [Synth 8-3332] Sequential element (INTERNAL_MB.mcs_0/microblaze_I/MicroBlaze_Core_I/Area.Core/Data_Flow_I/Result_Mux_I/Result_Mux_Bits[5].Result_Mux_Bit_I/EX_Result_DFF/Using_FPGA.Native) is unused and will be removed from module ibert_ultrascale_gth_v1_4_10_gthe4_common_slave.
+WARNING: [Synth 8-3332] Sequential element (INTERNAL_MB.mcs_0/microblaze_I/MicroBlaze_Core_I/Area.Core/Data_Flow_I/Result_Mux_I/Result_Mux_Bits[4].Result_Mux_Bit_I/EX_Result_DFF/Using_FPGA.Native) is unused and will be removed from module ibert_ultrascale_gth_v1_4_10_gthe4_common_slave.
+WARNING: [Synth 8-3332] Sequential element (INTERNAL_MB.mcs_0/microblaze_I/MicroBlaze_Core_I/Area.Core/Data_Flow_I/Result_Mux_I/Result_Mux_Bits[3].Result_Mux_Bit_I/EX_Result_DFF/Using_FPGA.Native) is unused and will be removed from module ibert_ultrascale_gth_v1_4_10_gthe4_common_slave.
+WARNING: [Synth 8-3332] Sequential element (INTERNAL_MB.mcs_0/microblaze_I/MicroBlaze_Core_I/Area.Core/Data_Flow_I/Result_Mux_I/Result_Mux_Bits[2].Result_Mux_Bit_I/EX_Result_DFF/Using_FPGA.Native) is unused and will be removed from module ibert_ultrascale_gth_v1_4_10_gthe4_common_slave.
+WARNING: [Synth 8-3332] Sequential element (INTERNAL_MB.mcs_0/microblaze_I/MicroBlaze_Core_I/Area.Core/Data_Flow_I/Result_Mux_I/Result_Mux_Bits[1].Result_Mux_Bit_I/EX_Result_DFF/Using_FPGA.Native) is unused and will be removed from module ibert_ultrascale_gth_v1_4_10_gthe4_common_slave.
+WARNING: [Synth 8-3332] Sequential element (INTERNAL_MB.mcs_0/microblaze_I/MicroBlaze_Core_I/Area.Core/Data_Flow_I/Result_Mux_I/Result_Mux_Bits[0].Result_Mux_Bit_I/EX_Result_DFF/Using_FPGA.Native) is unused and will be removed from module ibert_ultrascale_gth_v1_4_10_gthe4_common_slave.
+WARNING: [Synth 8-3332] Sequential element (INTERNAL_MB.mcs_0/microblaze_I/MicroBlaze_Core_I/Area.Core/Data_Flow_I/PC_Module_I/Not_All_Bits.PC_GEN[29].PC_Bit_I/PC_EX_DFF/Using_FPGA.Native) is unused and will be removed from module ibert_ultrascale_gth_v1_4_10_gthe4_common_slave.
+WARNING: [Synth 8-3332] Sequential element (INTERNAL_MB.mcs_0/microblaze_I/MicroBlaze_Core_I/Area.Core/Data_Flow_I/PC_Module_I/Not_All_Bits.PC_GEN[28].PC_Bit_I/PC_EX_DFF/Using_FPGA.Native) is unused and will be removed from module ibert_ultrascale_gth_v1_4_10_gthe4_common_slave.
+WARNING: [Synth 8-3332] Sequential element (INTERNAL_MB.mcs_0/microblaze_I/MicroBlaze_Core_I/Area.Core/Data_Flow_I/PC_Module_I/Not_All_Bits.PC_GEN[27].PC_Bit_I/PC_EX_DFF/Using_FPGA.Native) is unused and will be removed from module ibert_ultrascale_gth_v1_4_10_gthe4_common_slave.
+WARNING: [Synth 8-3332] Sequential element (INTERNAL_MB.mcs_0/microblaze_I/MicroBlaze_Core_I/Area.Core/Data_Flow_I/PC_Module_I/Not_All_Bits.PC_GEN[26].PC_Bit_I/PC_EX_DFF/Using_FPGA.Native) is unused and will be removed from module ibert_ultrascale_gth_v1_4_10_gthe4_common_slave.
+WARNING: [Synth 8-3332] Sequential element (INTERNAL_MB.mcs_0/microblaze_I/MicroBlaze_Core_I/Area.Core/Data_Flow_I/PC_Module_I/Not_All_Bits.PC_GEN[25].PC_Bit_I/PC_EX_DFF/Using_FPGA.Native) is unused and will be removed from module ibert_ultrascale_gth_v1_4_10_gthe4_common_slave.
+WARNING: [Synth 8-3332] Sequential element (INTERNAL_MB.mcs_0/microblaze_I/MicroBlaze_Core_I/Area.Core/Data_Flow_I/PC_Module_I/Not_All_Bits.PC_GEN[24].PC_Bit_I/PC_EX_DFF/Using_FPGA.Native) is unused and will be removed from module ibert_ultrascale_gth_v1_4_10_gthe4_common_slave.
+WARNING: [Synth 8-3332] Sequential element (INTERNAL_MB.mcs_0/microblaze_I/MicroBlaze_Core_I/Area.Core/Data_Flow_I/PC_Module_I/Not_All_Bits.PC_GEN[23].PC_Bit_I/PC_EX_DFF/Using_FPGA.Native) is unused and will be removed from module ibert_ultrascale_gth_v1_4_10_gthe4_common_slave.
+WARNING: [Synth 8-3332] Sequential element (INTERNAL_MB.mcs_0/microblaze_I/MicroBlaze_Core_I/Area.Core/Data_Flow_I/PC_Module_I/Not_All_Bits.PC_GEN[22].PC_Bit_I/PC_EX_DFF/Using_FPGA.Native) is unused and will be removed from module ibert_ultrascale_gth_v1_4_10_gthe4_common_slave.
+WARNING: [Synth 8-3332] Sequential element (INTERNAL_MB.mcs_0/microblaze_I/MicroBlaze_Core_I/Area.Core/Data_Flow_I/PC_Module_I/Not_All_Bits.PC_GEN[21].PC_Bit_I/PC_EX_DFF/Using_FPGA.Native) is unused and will be removed from module ibert_ultrascale_gth_v1_4_10_gthe4_common_slave.
+WARNING: [Synth 8-3332] Sequential element (INTERNAL_MB.mcs_0/microblaze_I/MicroBlaze_Core_I/Area.Core/Data_Flow_I/PC_Module_I/Not_All_Bits.PC_GEN[20].PC_Bit_I/PC_EX_DFF/Using_FPGA.Native) is unused and will be removed from module ibert_ultrascale_gth_v1_4_10_gthe4_common_slave.
+WARNING: [Synth 8-3332] Sequential element (INTERNAL_MB.mcs_0/microblaze_I/MicroBlaze_Core_I/Area.Core/Data_Flow_I/PC_Module_I/Not_All_Bits.PC_GEN[19].PC_Bit_I/PC_EX_DFF/Using_FPGA.Native) is unused and will be removed from module ibert_ultrascale_gth_v1_4_10_gthe4_common_slave.
+WARNING: [Synth 8-3332] Sequential element (INTERNAL_MB.mcs_0/microblaze_I/MicroBlaze_Core_I/Area.Core/Data_Flow_I/PC_Module_I/Not_All_Bits.PC_GEN[18].PC_Bit_I/PC_EX_DFF/Using_FPGA.Native) is unused and will be removed from module ibert_ultrascale_gth_v1_4_10_gthe4_common_slave.
+WARNING: [Synth 8-3332] Sequential element (INTERNAL_MB.mcs_0/microblaze_I/MicroBlaze_Core_I/Area.Core/Data_Flow_I/PC_Module_I/Not_All_Bits.PC_GEN[17].PC_Bit_I/PC_EX_DFF/Using_FPGA.Native) is unused and will be removed from module ibert_ultrascale_gth_v1_4_10_gthe4_common_slave.
+WARNING: [Synth 8-3332] Sequential element (INTERNAL_MB.mcs_0/microblaze_I/MicroBlaze_Core_I/Area.Core/Data_Flow_I/PC_Module_I/Not_All_Bits.PC_GEN[16].PC_Bit_I/PC_EX_DFF/Using_FPGA.Native) is unused and will be removed from module ibert_ultrascale_gth_v1_4_10_gthe4_common_slave.
+WARNING: [Synth 8-3332] Sequential element (INTERNAL_MB.mcs_0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[0].fdr_i) is unused and will be removed from module ibert_ultrascale_gth_v1_4_10_gthe4_common_slave.
+WARNING: [Synth 8-3332] Sequential element (INTERNAL_MB.mcs_0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[1].fdr_i) is unused and will be removed from module ibert_ultrascale_gth_v1_4_10_gthe4_common_slave.
+WARNING: [Synth 8-3332] Sequential element (INTERNAL_MB.mcs_0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[2].fdr_i) is unused and will be removed from module ibert_ultrascale_gth_v1_4_10_gthe4_common_slave.
+WARNING: [Synth 8-3332] Sequential element (INTERNAL_MB.mcs_0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[3].fdr_i) is unused and will be removed from module ibert_ultrascale_gth_v1_4_10_gthe4_common_slave.
+WARNING: [Synth 8-3332] Sequential element (INTERNAL_MB.mcs_0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[4].fdr_i) is unused and will be removed from module ibert_ultrascale_gth_v1_4_10_gthe4_common_slave.
+WARNING: [Synth 8-3332] Sequential element (INTERNAL_MB.mcs_0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[5].fdr_i) is unused and will be removed from module ibert_ultrascale_gth_v1_4_10_gthe4_common_slave.
+WARNING: [Synth 8-3332] Sequential element (INTERNAL_MB.mcs_0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[6].fdr_i) is unused and will be removed from module ibert_ultrascale_gth_v1_4_10_gthe4_common_slave.
+WARNING: [Synth 8-3332] Sequential element (INTERNAL_MB.mcs_0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[7].fdr_i) is unused and will be removed from module ibert_ultrascale_gth_v1_4_10_gthe4_common_slave.
+WARNING: [Synth 8-3332] Sequential element (INTERNAL_MB.mcs_0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[8].fdr_i) is unused and will be removed from module ibert_ultrascale_gth_v1_4_10_gthe4_common_slave.
+WARNING: [Synth 8-3332] Sequential element (INTERNAL_MB.mcs_0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[9].fdr_i) is unused and will be removed from module ibert_ultrascale_gth_v1_4_10_gthe4_common_slave.
+WARNING: [Synth 8-3332] Sequential element (INTERNAL_MB.mcs_0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[10].fdr_i) is unused and will be removed from module ibert_ultrascale_gth_v1_4_10_gthe4_common_slave.
+WARNING: [Synth 8-3332] Sequential element (INTERNAL_MB.mcs_0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[11].fdr_i) is unused and will be removed from module ibert_ultrascale_gth_v1_4_10_gthe4_common_slave.
+WARNING: [Synth 8-3332] Sequential element (INTERNAL_MB.mcs_0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[12].fdr_i) is unused and will be removed from module ibert_ultrascale_gth_v1_4_10_gthe4_common_slave.
+WARNING: [Synth 8-3332] Sequential element (INTERNAL_MB.mcs_0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[13].fdr_i) is unused and will be removed from module ibert_ultrascale_gth_v1_4_10_gthe4_common_slave.
+WARNING: [Synth 8-3332] Sequential element (INTERNAL_MB.mcs_0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[14].fdr_i) is unused and will be removed from module ibert_ultrascale_gth_v1_4_10_gthe4_common_slave.
+WARNING: [Synth 8-3332] Sequential element (INTERNAL_MB.mcs_0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[15].fdr_i) is unused and will be removed from module ibert_ultrascale_gth_v1_4_10_gthe4_common_slave.
+WARNING: [Synth 8-3332] Sequential element (INTERNAL_MB.mcs_0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[16].fdr_i) is unused and will be removed from module ibert_ultrascale_gth_v1_4_10_gthe4_common_slave.
+WARNING: [Synth 8-3332] Sequential element (INTERNAL_MB.mcs_0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[17].fdr_i) is unused and will be removed from module ibert_ultrascale_gth_v1_4_10_gthe4_common_slave.
+WARNING: [Synth 8-3332] Sequential element (INTERNAL_MB.mcs_0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[18].fdr_i) is unused and will be removed from module ibert_ultrascale_gth_v1_4_10_gthe4_common_slave.
+WARNING: [Synth 8-3332] Sequential element (INTERNAL_MB.mcs_0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[19].fdr_i) is unused and will be removed from module ibert_ultrascale_gth_v1_4_10_gthe4_common_slave.
+WARNING: [Synth 8-3332] Sequential element (INTERNAL_MB.mcs_0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[20].fdr_i) is unused and will be removed from module ibert_ultrascale_gth_v1_4_10_gthe4_common_slave.
+WARNING: [Synth 8-3332] Sequential element (INTERNAL_MB.mcs_0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[21].fdr_i) is unused and will be removed from module ibert_ultrascale_gth_v1_4_10_gthe4_common_slave.
+WARNING: [Synth 8-3332] Sequential element (INTERNAL_MB.mcs_0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[22].fdr_i) is unused and will be removed from module ibert_ultrascale_gth_v1_4_10_gthe4_common_slave.
+WARNING: [Synth 8-3332] Sequential element (INTERNAL_MB.mcs_0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[23].fdr_i) is unused and will be removed from module ibert_ultrascale_gth_v1_4_10_gthe4_common_slave.
+WARNING: [Synth 8-3332] Sequential element (INTERNAL_MB.mcs_0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[24].fdr_i) is unused and will be removed from module ibert_ultrascale_gth_v1_4_10_gthe4_common_slave.
+WARNING: [Synth 8-3332] Sequential element (INTERNAL_MB.mcs_0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[25].fdr_i) is unused and will be removed from module ibert_ultrascale_gth_v1_4_10_gthe4_common_slave.
+WARNING: [Synth 8-3332] Sequential element (INTERNAL_MB.mcs_0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[26].fdr_i) is unused and will be removed from module ibert_ultrascale_gth_v1_4_10_gthe4_common_slave.
+WARNING: [Synth 8-3332] Sequential element (INTERNAL_MB.mcs_0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[27].fdr_i) is unused and will be removed from module ibert_ultrascale_gth_v1_4_10_gthe4_common_slave.
+WARNING: [Synth 8-3332] Sequential element (INTERNAL_MB.mcs_0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[28].fdr_i) is unused and will be removed from module ibert_ultrascale_gth_v1_4_10_gthe4_common_slave.
+WARNING: [Synth 8-3332] Sequential element (INTERNAL_MB.mcs_0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[29].fdr_i) is unused and will be removed from module ibert_ultrascale_gth_v1_4_10_gthe4_common_slave.
+WARNING: [Synth 8-3332] Sequential element (INTERNAL_MB.mcs_0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[30].fdr_i) is unused and will be removed from module ibert_ultrascale_gth_v1_4_10_gthe4_common_slave.
+WARNING: [Synth 8-3332] Sequential element (INTERNAL_MB.mcs_0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[31].fdr_i) is unused and will be removed from module ibert_ultrascale_gth_v1_4_10_gthe4_common_slave.
+INFO: [Synth 8-3886] merging instance 'u_common/U_COMMON_REGS/reg_437/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[0]' (FDE) to 'u_common/U_COMMON_REGS/reg_437/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[1]'
+INFO: [Synth 8-3886] merging instance 'u_common/U_COMMON_REGS/reg_436/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[0]' (FDE) to 'u_common/U_COMMON_REGS/reg_436/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[2]'
+INFO: [Synth 8-3886] merging instance 'u_common/U_COMMON_REGS/reg_435/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[0]' (FDE) to 'u_common/U_COMMON_REGS/reg_435/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[1]'
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (u_common/U_COMMON_REGS/reg_434/\I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[0] )
+INFO: [Synth 8-3886] merging instance 'u_common/U_COMMON_REGS/reg_40e/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[0]' (FDE) to 'u_common/U_COMMON_REGS/reg_40e/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[1]'
+INFO: [Synth 8-3886] merging instance 'u_common/U_COMMON_REGS/reg_439/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[0]' (FDE) to 'u_common/U_COMMON_REGS/reg_439/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[1]'
+INFO: [Synth 8-3886] merging instance 'u_common/U_COMMON_REGS/reg_438/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[0]' (FDE) to 'u_common/U_COMMON_REGS/reg_438/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[2]'
+INFO: [Synth 8-3886] merging instance 'u_common/U_COMMON_REGS/reg_409/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[0]' (FDE) to 'u_common/U_COMMON_REGS/reg_409/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[3]'
+INFO: [Synth 8-3886] merging instance 'u_common/U_COMMON_REGS/reg_437/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[1]' (FDE) to 'u_common/U_COMMON_REGS/reg_437/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[2]'
+INFO: [Synth 8-3886] merging instance 'u_common/U_COMMON_REGS/reg_436/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[1]' (FDE) to 'u_common/U_COMMON_REGS/reg_436/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[3]'
+INFO: [Synth 8-3886] merging instance 'u_common/U_COMMON_REGS/reg_435/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[1]' (FDE) to 'u_common/U_COMMON_REGS/reg_435/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[2]'
+INFO: [Synth 8-3886] merging instance 'u_common/U_COMMON_REGS/reg_434/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[1]' (FDE) to 'u_common/U_COMMON_REGS/reg_434/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[2]'
+INFO: [Synth 8-3886] merging instance 'u_common/U_COMMON_REGS/reg_40e/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[1]' (FDE) to 'u_common/U_COMMON_REGS/reg_40e/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[2]'
+INFO: [Synth 8-3886] merging instance 'u_common/U_COMMON_REGS/reg_439/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[1]' (FDE) to 'u_common/U_COMMON_REGS/reg_439/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[2]'
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (u_common/U_COMMON_REGS/reg_438/\I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[1] )
+INFO: [Synth 8-3886] merging instance 'u_common/U_COMMON_REGS/reg_437/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[2]' (FDE) to 'u_common/U_COMMON_REGS/reg_437/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[4]'
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (u_common/U_COMMON_REGS/reg_436/\I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[2] )
+INFO: [Synth 8-3886] merging instance 'u_common/U_COMMON_REGS/reg_435/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[2]' (FDE) to 'u_common/U_COMMON_REGS/reg_435/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[3]'
+INFO: [Synth 8-3886] merging instance 'u_common/U_COMMON_REGS/reg_434/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[2]' (FDE) to 'u_common/U_COMMON_REGS/reg_434/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[3]'
+INFO: [Synth 8-3886] merging instance 'u_common/U_COMMON_REGS/reg_40e/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[2]' (FDE) to 'u_common/U_COMMON_REGS/reg_40e/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[5]'
+INFO: [Synth 8-3886] merging instance 'u_common/U_COMMON_REGS/reg_439/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[2]' (FDE) to 'u_common/U_COMMON_REGS/reg_439/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[3]'
+INFO: [Synth 8-3886] merging instance 'u_common/U_COMMON_REGS/reg_438/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[2]' (FDE) to 'u_common/U_COMMON_REGS/reg_438/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[3]'
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (u_common/U_COMMON_REGS/reg_437/\I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[3] )
+INFO: [Synth 8-3886] merging instance 'u_common/U_COMMON_REGS/reg_436/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[3]' (FDE) to 'u_common/U_COMMON_REGS/reg_436/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[4]'
+INFO: [Synth 8-3886] merging instance 'u_common/U_COMMON_REGS/reg_435/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[3]' (FDE) to 'u_common/U_COMMON_REGS/reg_435/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[4]'
+INFO: [Synth 8-3886] merging instance 'u_common/U_COMMON_REGS/reg_434/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[3]' (FDE) to 'u_common/U_COMMON_REGS/reg_434/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[4]'
+INFO: [Synth 8-3886] merging instance 'u_common/U_COMMON_REGS/reg_439/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[3]' (FDE) to 'u_common/U_COMMON_REGS/reg_439/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[4]'
+INFO: [Synth 8-3886] merging instance 'u_common/U_COMMON_REGS/reg_438/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[3]' (FDE) to 'u_common/U_COMMON_REGS/reg_438/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[4]'
+INFO: [Synth 8-3886] merging instance 'u_common/U_COMMON_REGS/reg_409/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[3]' (FDE) to 'u_common/U_COMMON_REGS/reg_409/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[4]'
+INFO: [Synth 8-3886] merging instance 'u_common/U_COMMON_REGS/reg_437/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[4]' (FDE) to 'u_common/U_COMMON_REGS/reg_437/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[5]'
+INFO: [Synth 8-3886] merging instance 'u_common/U_COMMON_REGS/reg_436/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[4]' (FDE) to 'u_common/U_COMMON_REGS/reg_436/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[5]'
+INFO: [Synth 8-3886] merging instance 'u_common/U_COMMON_REGS/reg_435/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[4]' (FDE) to 'u_common/U_COMMON_REGS/reg_435/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[5]'
+INFO: [Synth 8-3886] merging instance 'u_common/U_COMMON_REGS/reg_434/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[4]' (FDE) to 'u_common/U_COMMON_REGS/reg_434/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[5]'
+INFO: [Synth 8-3886] merging instance 'u_common/U_COMMON_REGS/reg_439/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[4]' (FDE) to 'u_common/U_COMMON_REGS/reg_439/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[5]'
+INFO: [Synth 8-3886] merging instance 'u_common/U_COMMON_REGS/reg_438/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[4]' (FDE) to 'u_common/U_COMMON_REGS/reg_438/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[5]'
+INFO: [Synth 8-3886] merging instance 'u_common/U_COMMON_REGS/reg_409/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[4]' (FDE) to 'u_common/U_COMMON_REGS/reg_409/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[8]'
+INFO: [Synth 8-3886] merging instance 'u_common/U_COMMON_REGS/reg_437/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[5]' (FDE) to 'u_common/U_COMMON_REGS/reg_437/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[6]'
+INFO: [Synth 8-3886] merging instance 'u_common/U_COMMON_REGS/reg_436/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[5]' (FDE) to 'u_common/U_COMMON_REGS/reg_436/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[6]'
+INFO: [Synth 8-3886] merging instance 'u_common/U_COMMON_REGS/reg_435/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[5]' (FDE) to 'u_common/U_COMMON_REGS/reg_435/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[6]'
+INFO: [Synth 8-3886] merging instance 'u_common/U_COMMON_REGS/reg_434/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[5]' (FDE) to 'u_common/U_COMMON_REGS/reg_434/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[6]'
+INFO: [Synth 8-3886] merging instance 'u_common/U_COMMON_REGS/reg_40e/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[5]' (FDE) to 'u_common/U_COMMON_REGS/reg_40e/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[6]'
+INFO: [Synth 8-3886] merging instance 'u_common/U_COMMON_REGS/reg_439/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[5]' (FDE) to 'u_common/U_COMMON_REGS/reg_439/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[6]'
+INFO: [Synth 8-3886] merging instance 'u_common/U_COMMON_REGS/reg_438/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[5]' (FDE) to 'u_common/U_COMMON_REGS/reg_438/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[6]'
+INFO: [Synth 8-3886] merging instance 'u_common/U_COMMON_REGS/reg_437/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[6]' (FDE) to 'u_common/U_COMMON_REGS/reg_437/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[7]'
+INFO: [Synth 8-3886] merging instance 'u_common/U_COMMON_REGS/reg_436/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[6]' (FDE) to 'u_common/U_COMMON_REGS/reg_436/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[7]'
+INFO: [Synth 8-3886] merging instance 'u_common/U_COMMON_REGS/reg_435/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[6]' (FDE) to 'u_common/U_COMMON_REGS/reg_435/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[8]'
+INFO: [Synth 8-3886] merging instance 'u_common/U_COMMON_REGS/reg_434/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[6]' (FDE) to 'u_common/U_COMMON_REGS/reg_434/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[7]'
+INFO: [Synth 8-3886] merging instance 'u_common/U_COMMON_REGS/reg_40e/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[6]' (FDE) to 'u_common/U_COMMON_REGS/reg_40e/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[7]'
+INFO: [Synth 8-3886] merging instance 'u_common/U_COMMON_REGS/reg_439/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[6]' (FDE) to 'u_common/U_COMMON_REGS/reg_439/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[7]'
+INFO: [Synth 8-3886] merging instance 'u_common/U_COMMON_REGS/reg_438/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[6]' (FDE) to 'u_common/U_COMMON_REGS/reg_438/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[7]'
+INFO: [Synth 8-3886] merging instance 'u_common/U_COMMON_REGS/reg_437/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[7]' (FDE) to 'u_common/U_COMMON_REGS/reg_437/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[8]'
+INFO: [Synth 8-3886] merging instance 'u_common/U_COMMON_REGS/reg_436/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[7]' (FDE) to 'u_common/U_COMMON_REGS/reg_436/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[8]'
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (u_common/U_COMMON_REGS/reg_435/\I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[7] )
+INFO: [Synth 8-3886] merging instance 'u_common/U_COMMON_REGS/reg_434/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[7]' (FDE) to 'u_common/U_COMMON_REGS/reg_434/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[8]'
+INFO: [Synth 8-3886] merging instance 'u_common/U_COMMON_REGS/reg_40e/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[7]' (FDE) to 'u_common/U_COMMON_REGS/reg_40e/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[8]'
+INFO: [Synth 8-3886] merging instance 'u_common/U_COMMON_REGS/reg_439/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[7]' (FDE) to 'u_common/U_COMMON_REGS/reg_439/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[8]'
+INFO: [Synth 8-3886] merging instance 'u_common/U_COMMON_REGS/reg_438/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[7]' (FDE) to 'u_common/U_COMMON_REGS/reg_438/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[8]'
+INFO: [Synth 8-3886] merging instance 'u_common/U_COMMON_REGS/reg_437/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[8]' (FDE) to 'u_common/U_COMMON_REGS/reg_437/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[9]'
+INFO: [Synth 8-3886] merging instance 'u_common/U_COMMON_REGS/reg_436/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[8]' (FDE) to 'u_common/U_COMMON_REGS/reg_436/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[9]'
+INFO: [Synth 8-3886] merging instance 'u_common/U_COMMON_REGS/reg_435/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[8]' (FDE) to 'u_common/U_COMMON_REGS/reg_435/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[9]'
+INFO: [Synth 8-3886] merging instance 'u_common/U_COMMON_REGS/reg_434/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[8]' (FDE) to 'u_common/U_COMMON_REGS/reg_434/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[9]'
+INFO: [Synth 8-3886] merging instance 'u_common/U_COMMON_REGS/reg_40e/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[8]' (FDE) to 'u_common/U_COMMON_REGS/reg_40e/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[9]'
+INFO: [Synth 8-3886] merging instance 'u_common/U_COMMON_REGS/reg_439/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[8]' (FDE) to 'u_common/U_COMMON_REGS/reg_439/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[9]'
+INFO: [Synth 8-3886] merging instance 'u_common/U_COMMON_REGS/reg_438/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[8]' (FDE) to 'u_common/U_COMMON_REGS/reg_438/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[9]'
+INFO: [Synth 8-3886] merging instance 'u_common/U_COMMON_REGS/reg_409/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[8]' (FDE) to 'u_common/U_COMMON_REGS/reg_409/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[9]'
+INFO: [Synth 8-3886] merging instance 'u_common/U_COMMON_REGS/reg_437/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[9]' (FDE) to 'u_common/U_COMMON_REGS/reg_437/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[10]'
+INFO: [Synth 8-3886] merging instance 'u_common/U_COMMON_REGS/reg_436/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[9]' (FDE) to 'u_common/U_COMMON_REGS/reg_436/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[10]'
+INFO: [Synth 8-3886] merging instance 'u_common/U_COMMON_REGS/reg_435/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[9]' (FDE) to 'u_common/U_COMMON_REGS/reg_435/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[10]'
+INFO: [Synth 8-3886] merging instance 'u_common/U_COMMON_REGS/reg_434/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[9]' (FDE) to 'u_common/U_COMMON_REGS/reg_434/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[10]'
+INFO: [Synth 8-3886] merging instance 'u_common/U_COMMON_REGS/reg_40e/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[9]' (FDE) to 'u_common/U_COMMON_REGS/reg_40e/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[10]'
+INFO: [Synth 8-3886] merging instance 'u_common/U_COMMON_REGS/reg_439/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[9]' (FDE) to 'u_common/U_COMMON_REGS/reg_439/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[10]'
+INFO: [Common 17-14] Message 'Synth 8-3886' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Common 17-14] Message 'Synth 8-3886' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u_common/U_COMMON_REGS/reg_437/\I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u_common/U_COMMON_REGS/reg_436/\I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u_common/U_COMMON_REGS/reg_417/\I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u_common/U_COMMON_REGS/reg_435/\I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u_common/U_COMMON_REGS/reg_434/\I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u_common/U_COMMON_REGS/reg_40e/\I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u_common/U_COMMON_REGS/reg_439/\I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u_common/U_COMMON_REGS/reg_438/\I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u_common/U_COMMON_REGS/reg_410/\I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u_common/U_COMMON_REGS/reg_40b/\I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u_common/U_COMMON_REGS/reg_40a/\I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u_common/U_COMMON_REGS/reg_409/\I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\CH[1].u_ch /\enable_cal_block.cpll_cal_inst_i/gtwizard_ultrascale_v1_7_14_gte4_drp_arb_i/addr_i_reg[18] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\CH[1].u_ch /\enable_cal_block.cpll_cal_inst_i/gtwizard_ultrascale_v1_7_14_gte4_drp_arb_i/addr_i_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\CH[1].u_ch /\enable_cal_block.cpll_cal_inst_i/gtwizard_ultrascale_v1_7_14_gte4_drp_arb_i/addr_i_reg[6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\CH[1].u_ch /\enable_cal_block.cpll_cal_inst_i/gtwizard_ultrascale_v1_7_14_gte4_drp_arb_i/en_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\CH[1].u_ch /\enable_cal_block.cpll_cal_inst_i/txoutclksel_int_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\CH[1].u_ch /\enable_cal_block.cpll_cal_inst_i/gtwizard_ultrascale_v1_7_14_gte4_drp_arb_i/drp_state_reg[3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\CH[1].u_ch /\enable_cal_block.cpll_cal_inst_i/gtwizard_ultrascale_v1_7_14_gte4_drp_arb_i/daddr_reg[8] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\CH[1].u_ch /\enable_cal_block.cpll_cal_inst_i/gtwizard_ultrascale_v1_7_14_gte4_drp_arb_i/DADDR_O_reg[8] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\CH[1].u_ch /\enable_cal_block.cpll_cal_inst_i/gtwizard_ultrascale_v1_7_14_gte4_drp_arb_i/idx_reg[1]__0 )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\CH[1].u_ch /U_CHANNEL_REGS/reg_460/\I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[1] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\CH[1].u_ch /U_CHANNEL_REGS/reg_45e/\I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[2] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\CH[1].u_ch /U_CHANNEL_REGS/reg_454/\I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[2] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\CH[1].u_ch /U_CHANNEL_REGS/reg_471/\I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[3] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\CH[1].u_ch /U_CHANNEL_REGS/reg_45f/\I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\CH[1].u_ch /U_CHANNEL_REGS/reg_41e/\I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[6] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\CH[1].u_ch /U_CHANNEL_REGS/reg_455/\I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[7] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\CH[1].u_ch /U_CHANNEL_REGS/reg_457/\I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[12] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\CH[1].u_ch /U_CHANNEL_REGS/reg_427/\I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[14] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\CH[1].u_ch /U_CHANNEL_REGS/reg_45b/\I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[14] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\CH[1].u_ch /U_CHANNEL_REGS/reg_459/\I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[14] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\CH[1].u_ch /U_CHANNEL_REGS/reg_458/\I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[14] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\CH[1].u_ch /U_CHANNEL_REGS/reg_41f/\I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[14] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\CH[1].u_ch /U_CHANNEL_REGS/reg_456/\I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[14] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\CH[1].u_ch /U_CHANNEL_REGS/reg_438/\I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\CH[1].u_ch /U_CHANNEL_REGS/reg_471/\I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\CH[1].u_ch /U_CHANNEL_REGS/reg_470/\I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\CH[1].u_ch /U_CHANNEL_REGS/reg_431/\I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\CH[1].u_ch /U_CHANNEL_REGS/reg_467/\I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\CH[1].u_ch /U_CHANNEL_REGS/reg_460/\I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\CH[1].u_ch /U_CHANNEL_REGS/reg_426/\I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\CH[1].u_ch /U_CHANNEL_REGS/reg_421/\I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\CH[1].u_ch /U_CHANNEL_REGS/reg_42f/\I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\CH[1].u_ch /U_CHANNEL_REGS/reg_42c/\I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\CH[1].u_ch /U_CHANNEL_REGS/reg_42b/\I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\CH[1].u_ch /U_CHANNEL_REGS/reg_42a/\I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\CH[1].u_ch /U_CHANNEL_REGS/reg_45f/\I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\CH[1].u_ch /U_CHANNEL_REGS/reg_45e/\I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15] )
+INFO: [Common 17-14] Message 'Synth 8-3333' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Common 17-14] Message 'Synth 8-3333' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+WARNING: [Synth 8-3936] Found unconnected internal register 'chk40.patchk40/seed_r3_reg' and it is trimmed from '40' to '31' bits. [/home/bouthsarath/ibert_dfe/prj/zubpm_hw/zubpm_hw.gen/sources_1/ip/ibert/hdl/ibert_lib_v1_0_syn_rfs.v:1066]
+WARNING: [Synth 8-3936] Found unconnected internal register 'chk40.patchk40/errored_bits_o_reg' and it is trimmed from '9' to '8' bits. [/home/bouthsarath/ibert_dfe/prj/zubpm_hw/zubpm_hw.gen/sources_1/ip/ibert/hdl/ibert_lib_v1_0_syn_rfs.v:1172]
+WARNING: [Synth 8-3936] Found unconnected internal register 'chk40.patchk40/i_ones_counter/ones_cnt_o_reg' and it is trimmed from '9' to '8' bits. [/home/bouthsarath/ibert_dfe/prj/zubpm_hw/zubpm_hw.gen/sources_1/ip/ibert/hdl/ibert_lib_v1_0_syn_rfs.v:822]
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 16 for RAM "U_CHANNEL_REGS/myram_reg"
+INFO: [Common 17-14] Message 'Synth 8-3333' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+WARNING: [Synth 8-3936] Found unconnected internal register 'chk40.patchk40/seed_r3_reg' and it is trimmed from '40' to '31' bits. [/home/bouthsarath/ibert_dfe/prj/zubpm_hw/zubpm_hw.gen/sources_1/ip/ibert/hdl/ibert_lib_v1_0_syn_rfs.v:1066]
+WARNING: [Synth 8-3936] Found unconnected internal register 'chk40.patchk40/errored_bits_o_reg' and it is trimmed from '9' to '8' bits. [/home/bouthsarath/ibert_dfe/prj/zubpm_hw/zubpm_hw.gen/sources_1/ip/ibert/hdl/ibert_lib_v1_0_syn_rfs.v:1172]
+WARNING: [Synth 8-3936] Found unconnected internal register 'chk40.patchk40/i_ones_counter/ones_cnt_o_reg' and it is trimmed from '9' to '8' bits. [/home/bouthsarath/ibert_dfe/prj/zubpm_hw/zubpm_hw.gen/sources_1/ip/ibert/hdl/ibert_lib_v1_0_syn_rfs.v:822]
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 16 for RAM "U_CHANNEL_REGS/myram_reg"
+INFO: [Common 17-14] Message 'Synth 8-3333' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+WARNING: [Synth 8-3936] Found unconnected internal register 'chk40.patchk40/seed_r3_reg' and it is trimmed from '40' to '31' bits. [/home/bouthsarath/ibert_dfe/prj/zubpm_hw/zubpm_hw.gen/sources_1/ip/ibert/hdl/ibert_lib_v1_0_syn_rfs.v:1066]
+WARNING: [Synth 8-3936] Found unconnected internal register 'chk40.patchk40/errored_bits_o_reg' and it is trimmed from '9' to '8' bits. [/home/bouthsarath/ibert_dfe/prj/zubpm_hw/zubpm_hw.gen/sources_1/ip/ibert/hdl/ibert_lib_v1_0_syn_rfs.v:1172]
+WARNING: [Synth 8-3936] Found unconnected internal register 'chk40.patchk40/i_ones_counter/ones_cnt_o_reg' and it is trimmed from '9' to '8' bits. [/home/bouthsarath/ibert_dfe/prj/zubpm_hw/zubpm_hw.gen/sources_1/ip/ibert/hdl/ibert_lib_v1_0_syn_rfs.v:822]
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 16 for RAM "\CH[0].u_ch /U_CHANNEL_REGS/myram_reg"
+INFO: [Common 17-14] Message 'Synth 8-3886' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+WARNING: [Synth 8-3936] Found unconnected internal register 'chk40.patchk40/seed_r3_reg' and it is trimmed from '40' to '31' bits. [/home/bouthsarath/ibert_dfe/prj/zubpm_hw/zubpm_hw.gen/sources_1/ip/ibert/hdl/ibert_lib_v1_0_syn_rfs.v:1066]
+WARNING: [Synth 8-3936] Found unconnected internal register 'chk40.patchk40/errored_bits_o_reg' and it is trimmed from '9' to '8' bits. [/home/bouthsarath/ibert_dfe/prj/zubpm_hw/zubpm_hw.gen/sources_1/ip/ibert/hdl/ibert_lib_v1_0_syn_rfs.v:1172]
+WARNING: [Synth 8-3936] Found unconnected internal register 'chk40.patchk40/i_ones_counter/ones_cnt_o_reg' and it is trimmed from '9' to '8' bits. [/home/bouthsarath/ibert_dfe/prj/zubpm_hw/zubpm_hw.gen/sources_1/ip/ibert/hdl/ibert_lib_v1_0_syn_rfs.v:822]
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 16 for RAM "\CH[1].u_ch /U_CHANNEL_REGS/myram_reg"
+WARNING: [Synth 8-3332] Sequential element (INTERNAL_MB.mcs_0/microblaze_I/MicroBlaze_Core_I/Area.Core/Data_Flow_I/Result_Mux_I/Result_Mux_Bits[31].Result_Mux_Bit_I/EX_Result_DFF/Using_FPGA.Native) is unused and will be removed from module ibert_ultrascale_gth_v1_4_10_gthe4_common_slave__parameterized0.
+WARNING: [Synth 8-3332] Sequential element (INTERNAL_MB.mcs_0/microblaze_I/MicroBlaze_Core_I/Area.Core/Data_Flow_I/Result_Mux_I/Result_Mux_Bits[30].Result_Mux_Bit_I/EX_Result_DFF/Using_FPGA.Native) is unused and will be removed from module ibert_ultrascale_gth_v1_4_10_gthe4_common_slave__parameterized0.
+WARNING: [Synth 8-3332] Sequential element (INTERNAL_MB.mcs_0/microblaze_I/MicroBlaze_Core_I/Area.Core/Data_Flow_I/Result_Mux_I/Result_Mux_Bits[29].Result_Mux_Bit_I/EX_Result_DFF/Using_FPGA.Native) is unused and will be removed from module ibert_ultrascale_gth_v1_4_10_gthe4_common_slave__parameterized0.
+WARNING: [Synth 8-3332] Sequential element (INTERNAL_MB.mcs_0/microblaze_I/MicroBlaze_Core_I/Area.Core/Data_Flow_I/Result_Mux_I/Result_Mux_Bits[28].Result_Mux_Bit_I/EX_Result_DFF/Using_FPGA.Native) is unused and will be removed from module ibert_ultrascale_gth_v1_4_10_gthe4_common_slave__parameterized0.
+WARNING: [Synth 8-3332] Sequential element (INTERNAL_MB.mcs_0/microblaze_I/MicroBlaze_Core_I/Area.Core/Data_Flow_I/Result_Mux_I/Result_Mux_Bits[27].Result_Mux_Bit_I/EX_Result_DFF/Using_FPGA.Native) is unused and will be removed from module ibert_ultrascale_gth_v1_4_10_gthe4_common_slave__parameterized0.
+WARNING: [Synth 8-3332] Sequential element (INTERNAL_MB.mcs_0/microblaze_I/MicroBlaze_Core_I/Area.Core/Data_Flow_I/Result_Mux_I/Result_Mux_Bits[26].Result_Mux_Bit_I/EX_Result_DFF/Using_FPGA.Native) is unused and will be removed from module ibert_ultrascale_gth_v1_4_10_gthe4_common_slave__parameterized0.
+WARNING: [Synth 8-3332] Sequential element (INTERNAL_MB.mcs_0/microblaze_I/MicroBlaze_Core_I/Area.Core/Data_Flow_I/Result_Mux_I/Result_Mux_Bits[25].Result_Mux_Bit_I/EX_Result_DFF/Using_FPGA.Native) is unused and will be removed from module ibert_ultrascale_gth_v1_4_10_gthe4_common_slave__parameterized0.
+WARNING: [Synth 8-3332] Sequential element (INTERNAL_MB.mcs_0/microblaze_I/MicroBlaze_Core_I/Area.Core/Data_Flow_I/Result_Mux_I/Result_Mux_Bits[24].Result_Mux_Bit_I/EX_Result_DFF/Using_FPGA.Native) is unused and will be removed from module ibert_ultrascale_gth_v1_4_10_gthe4_common_slave__parameterized0.
+WARNING: [Synth 8-3332] Sequential element (INTERNAL_MB.mcs_0/microblaze_I/MicroBlaze_Core_I/Area.Core/Data_Flow_I/Result_Mux_I/Result_Mux_Bits[23].Result_Mux_Bit_I/EX_Result_DFF/Using_FPGA.Native) is unused and will be removed from module ibert_ultrascale_gth_v1_4_10_gthe4_common_slave__parameterized0.
+WARNING: [Synth 8-3332] Sequential element (INTERNAL_MB.mcs_0/microblaze_I/MicroBlaze_Core_I/Area.Core/Data_Flow_I/Result_Mux_I/Result_Mux_Bits[22].Result_Mux_Bit_I/EX_Result_DFF/Using_FPGA.Native) is unused and will be removed from module ibert_ultrascale_gth_v1_4_10_gthe4_common_slave__parameterized0.
+WARNING: [Synth 8-3332] Sequential element (INTERNAL_MB.mcs_0/microblaze_I/MicroBlaze_Core_I/Area.Core/Data_Flow_I/Result_Mux_I/Result_Mux_Bits[21].Result_Mux_Bit_I/EX_Result_DFF/Using_FPGA.Native) is unused and will be removed from module ibert_ultrascale_gth_v1_4_10_gthe4_common_slave__parameterized0.
+WARNING: [Synth 8-3332] Sequential element (INTERNAL_MB.mcs_0/microblaze_I/MicroBlaze_Core_I/Area.Core/Data_Flow_I/Result_Mux_I/Result_Mux_Bits[20].Result_Mux_Bit_I/EX_Result_DFF/Using_FPGA.Native) is unused and will be removed from module ibert_ultrascale_gth_v1_4_10_gthe4_common_slave__parameterized0.
+WARNING: [Synth 8-3332] Sequential element (INTERNAL_MB.mcs_0/microblaze_I/MicroBlaze_Core_I/Area.Core/Data_Flow_I/Result_Mux_I/Result_Mux_Bits[19].Result_Mux_Bit_I/EX_Result_DFF/Using_FPGA.Native) is unused and will be removed from module ibert_ultrascale_gth_v1_4_10_gthe4_common_slave__parameterized0.
+WARNING: [Synth 8-3332] Sequential element (INTERNAL_MB.mcs_0/microblaze_I/MicroBlaze_Core_I/Area.Core/Data_Flow_I/Result_Mux_I/Result_Mux_Bits[18].Result_Mux_Bit_I/EX_Result_DFF/Using_FPGA.Native) is unused and will be removed from module ibert_ultrascale_gth_v1_4_10_gthe4_common_slave__parameterized0.
+WARNING: [Synth 8-3332] Sequential element (INTERNAL_MB.mcs_0/microblaze_I/MicroBlaze_Core_I/Area.Core/Data_Flow_I/Result_Mux_I/Result_Mux_Bits[17].Result_Mux_Bit_I/EX_Result_DFF/Using_FPGA.Native) is unused and will be removed from module ibert_ultrascale_gth_v1_4_10_gthe4_common_slave__parameterized0.
+WARNING: [Synth 8-3332] Sequential element (INTERNAL_MB.mcs_0/microblaze_I/MicroBlaze_Core_I/Area.Core/Data_Flow_I/Result_Mux_I/Result_Mux_Bits[16].Result_Mux_Bit_I/EX_Result_DFF/Using_FPGA.Native) is unused and will be removed from module ibert_ultrascale_gth_v1_4_10_gthe4_common_slave__parameterized0.
+WARNING: [Synth 8-3332] Sequential element (INTERNAL_MB.mcs_0/microblaze_I/MicroBlaze_Core_I/Area.Core/Data_Flow_I/Result_Mux_I/Result_Mux_Bits[15].Result_Mux_Bit_I/EX_Result_DFF/Using_FPGA.Native) is unused and will be removed from module ibert_ultrascale_gth_v1_4_10_gthe4_common_slave__parameterized0.
+WARNING: [Synth 8-3332] Sequential element (INTERNAL_MB.mcs_0/microblaze_I/MicroBlaze_Core_I/Area.Core/Data_Flow_I/Result_Mux_I/Result_Mux_Bits[14].Result_Mux_Bit_I/EX_Result_DFF/Using_FPGA.Native) is unused and will be removed from module ibert_ultrascale_gth_v1_4_10_gthe4_common_slave__parameterized0.
+WARNING: [Synth 8-3332] Sequential element (INTERNAL_MB.mcs_0/microblaze_I/MicroBlaze_Core_I/Area.Core/Data_Flow_I/Result_Mux_I/Result_Mux_Bits[13].Result_Mux_Bit_I/EX_Result_DFF/Using_FPGA.Native) is unused and will be removed from module ibert_ultrascale_gth_v1_4_10_gthe4_common_slave__parameterized0.
+WARNING: [Synth 8-3332] Sequential element (INTERNAL_MB.mcs_0/microblaze_I/MicroBlaze_Core_I/Area.Core/Data_Flow_I/Result_Mux_I/Result_Mux_Bits[12].Result_Mux_Bit_I/EX_Result_DFF/Using_FPGA.Native) is unused and will be removed from module ibert_ultrascale_gth_v1_4_10_gthe4_common_slave__parameterized0.
+WARNING: [Synth 8-3332] Sequential element (INTERNAL_MB.mcs_0/microblaze_I/MicroBlaze_Core_I/Area.Core/Data_Flow_I/Result_Mux_I/Result_Mux_Bits[11].Result_Mux_Bit_I/EX_Result_DFF/Using_FPGA.Native) is unused and will be removed from module ibert_ultrascale_gth_v1_4_10_gthe4_common_slave__parameterized0.
+WARNING: [Synth 8-3332] Sequential element (INTERNAL_MB.mcs_0/microblaze_I/MicroBlaze_Core_I/Area.Core/Data_Flow_I/Result_Mux_I/Result_Mux_Bits[10].Result_Mux_Bit_I/EX_Result_DFF/Using_FPGA.Native) is unused and will be removed from module ibert_ultrascale_gth_v1_4_10_gthe4_common_slave__parameterized0.
+INFO: [Common 17-14] Message 'Synth 8-3332' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Common 17-14] Message 'Synth 8-3886' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Common 17-14] Message 'Synth 8-3333' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+WARNING: [Synth 8-3936] Found unconnected internal register 'chk40.patchk40/seed_r3_reg' and it is trimmed from '40' to '31' bits. [/home/bouthsarath/ibert_dfe/prj/zubpm_hw/zubpm_hw.gen/sources_1/ip/ibert/hdl/ibert_lib_v1_0_syn_rfs.v:1066]
+WARNING: [Synth 8-3936] Found unconnected internal register 'chk40.patchk40/errored_bits_o_reg' and it is trimmed from '9' to '8' bits. [/home/bouthsarath/ibert_dfe/prj/zubpm_hw/zubpm_hw.gen/sources_1/ip/ibert/hdl/ibert_lib_v1_0_syn_rfs.v:1172]
+WARNING: [Synth 8-3936] Found unconnected internal register 'chk40.patchk40/i_ones_counter/ones_cnt_o_reg' and it is trimmed from '9' to '8' bits. [/home/bouthsarath/ibert_dfe/prj/zubpm_hw/zubpm_hw.gen/sources_1/ip/ibert/hdl/ibert_lib_v1_0_syn_rfs.v:822]
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 16 for RAM "U_CHANNEL_REGS/myram_reg"
+WARNING: [Synth 8-3936] Found unconnected internal register 'chk40.patchk40/seed_r3_reg' and it is trimmed from '40' to '31' bits. [/home/bouthsarath/ibert_dfe/prj/zubpm_hw/zubpm_hw.gen/sources_1/ip/ibert/hdl/ibert_lib_v1_0_syn_rfs.v:1066]
+WARNING: [Synth 8-3936] Found unconnected internal register 'chk40.patchk40/errored_bits_o_reg' and it is trimmed from '9' to '8' bits. [/home/bouthsarath/ibert_dfe/prj/zubpm_hw/zubpm_hw.gen/sources_1/ip/ibert/hdl/ibert_lib_v1_0_syn_rfs.v:1172]
+WARNING: [Synth 8-3936] Found unconnected internal register 'chk40.patchk40/i_ones_counter/ones_cnt_o_reg' and it is trimmed from '9' to '8' bits. [/home/bouthsarath/ibert_dfe/prj/zubpm_hw/zubpm_hw.gen/sources_1/ip/ibert/hdl/ibert_lib_v1_0_syn_rfs.v:822]
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 16 for RAM "U_CHANNEL_REGS/myram_reg"
+WARNING: [Synth 8-3936] Found unconnected internal register 'chk40.patchk40/seed_r3_reg' and it is trimmed from '40' to '31' bits. [/home/bouthsarath/ibert_dfe/prj/zubpm_hw/zubpm_hw.gen/sources_1/ip/ibert/hdl/ibert_lib_v1_0_syn_rfs.v:1066]
+WARNING: [Synth 8-3936] Found unconnected internal register 'chk40.patchk40/errored_bits_o_reg' and it is trimmed from '9' to '8' bits. [/home/bouthsarath/ibert_dfe/prj/zubpm_hw/zubpm_hw.gen/sources_1/ip/ibert/hdl/ibert_lib_v1_0_syn_rfs.v:1172]
+WARNING: [Synth 8-3936] Found unconnected internal register 'chk40.patchk40/i_ones_counter/ones_cnt_o_reg' and it is trimmed from '9' to '8' bits. [/home/bouthsarath/ibert_dfe/prj/zubpm_hw/zubpm_hw.gen/sources_1/ip/ibert/hdl/ibert_lib_v1_0_syn_rfs.v:822]
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 16 for RAM "\CH[0].u_ch /U_CHANNEL_REGS/myram_reg"
+INFO: [Common 17-14] Message 'Synth 8-3886' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:36 ; elapsed = 00:00:59 . Memory (MB): peak = 3812.438 ; gain = 821.848 ; free physical = 10735 ; free virtual = 91439
+Synthesis current peak Physical Memory [PSS] (MB): peak = 12110.118; parent = 2666.921; children = 9687.050
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 18250.684; parent = 3780.430; children = 14470.258
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:45 ; elapsed = 00:01:08 . Memory (MB): peak = 4047.828 ; gain = 1057.238 ; free physical = 10281 ; free virtual = 91035
+Synthesis current peak Physical Memory [PSS] (MB): peak = 12633.489; parent = 3056.186; children = 9687.050
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 18518.090; parent = 4047.832; children = 14470.258
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:45 ; elapsed = 00:01:09 . Memory (MB): peak = 4068.828 ; gain = 1078.238 ; free physical = 10277 ; free virtual = 91031
+Synthesis current peak Physical Memory [PSS] (MB): peak = 12654.356; parent = 3077.053; children = 9687.050
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 18539.090; parent = 4068.832; children = 14470.258
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-7052] The timing for the instance inst/QUAD[0].u_q/i_0/CH[1].u_ch/U_CHANNEL_REGS/myram_reg_bram_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/QUAD[0].u_q/CH[2].u_ch/U_CHANNEL_REGS/myram_reg_bram_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/QUAD[0].u_q/CH[3].u_ch/U_CHANNEL_REGS/myram_reg_bram_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/QUAD[0].u_q/i_1/CH[0].u_ch/U_CHANNEL_REGS/myram_reg_bram_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/QUAD[1].u_q/i_0/CH[1].u_ch/U_CHANNEL_REGS/myram_reg_bram_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/QUAD[1].u_q/CH[2].u_ch/U_CHANNEL_REGS/myram_reg_bram_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/QUAD[1].u_q/CH[3].u_ch/U_CHANNEL_REGS/myram_reg_bram_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/QUAD[1].u_q/i_1/CH[0].u_ch/U_CHANNEL_REGS/myram_reg_bram_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:49 ; elapsed = 00:01:22 . Memory (MB): peak = 4092.781 ; gain = 1102.191 ; free physical = 7676 ; free virtual = 88434
+Synthesis current peak Physical Memory [PSS] (MB): peak = 15114.994; parent = 3077.053; children = 12078.089
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 21133.551; parent = 4088.867; children = 17044.688
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+INFO: [Synth 8-7052] The timing for the instance inst/QUAD[0].u_q/CH[2].u_ch/U_CHANNEL_REGS/myram_reg_bram_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/QUAD[0].u_q/CH[3].u_ch/U_CHANNEL_REGS/myram_reg_bram_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/QUAD[0].u_q/CH[1].u_ch/U_CHANNEL_REGS/myram_reg_bram_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/QUAD[0].u_q/CH[0].u_ch/U_CHANNEL_REGS/myram_reg_bram_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/QUAD[1].u_q/CH[2].u_ch/U_CHANNEL_REGS/myram_reg_bram_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/QUAD[1].u_q/CH[3].u_ch/U_CHANNEL_REGS/myram_reg_bram_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/QUAD[1].u_q/CH[1].u_ch/U_CHANNEL_REGS/myram_reg_bram_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/QUAD[1].u_q/CH[0].u_ch/U_CHANNEL_REGS/myram_reg_bram_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:gtrefclkmonitor_i to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:rxdfestadaptdone_i to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:txgearboxready_i to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:rxphmonitor_i[4] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:rxphmonitor_i[3] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:rxphmonitor_i[2] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:rxphmonitor_i[1] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:rxphmonitor_i[0] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:rxphslipmonitor_i[4] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:rxphslipmonitor_i[3] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:rxphslipmonitor_i[2] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:rxphslipmonitor_i[1] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:rxphslipmonitor_i[0] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:pmascanout_i[11] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:pmascanout_i[10] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:pmascanout_i[9] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:pmascanout_i[8] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:pmascanout_i[7] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:pmascanout_i[6] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:pmascanout_i[5] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:pmascanout_i[4] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:pmascanout_i[3] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:pmascanout_i[2] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:pmascanout_i[1] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:pmascanout_i[0] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:scanout_i[18] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:scanout_i[17] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:scanout_i[16] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:scanout_i[15] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:scanout_i[14] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:scanout_i[13] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:scanout_i[12] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:scanout_i[11] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:scanout_i[10] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:scanout_i[9] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:scanout_i[8] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:scanout_i[7] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:scanout_i[6] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:scanout_i[5] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:scanout_i[4] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:scanout_i[3] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:scanout_i[2] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:scanout_i[1] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:scanout_i[0] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:mgt_errcnt_reset_stat_i to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:dmon_trace_data_i[15] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:dmon_trace_data_i[14] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:dmon_trace_data_i[13] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:dmon_trace_data_i[12] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:dmon_trace_data_i[11] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:dmon_trace_data_i[10] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:dmon_trace_data_i[9] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:dmon_trace_data_i[8] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:dmon_trace_data_i[7] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:dmon_trace_data_i[6] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:dmon_trace_data_i[5] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:dmon_trace_data_i[4] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:dmon_trace_data_i[3] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:dmon_trace_data_i[2] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:dmon_trace_data_i[1] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:dmon_trace_data_i[0] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:dmon_trace_full_i to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:gtrefclkmonitor_i to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:rxdfestadaptdone_i to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:txgearboxready_i to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:rxphmonitor_i[4] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:rxphmonitor_i[3] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:rxphmonitor_i[2] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:rxphmonitor_i[1] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:rxphmonitor_i[0] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:rxphslipmonitor_i[4] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:rxphslipmonitor_i[3] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:rxphslipmonitor_i[2] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:rxphslipmonitor_i[1] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:rxphslipmonitor_i[0] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:pmascanout_i[11] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:pmascanout_i[10] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:pmascanout_i[9] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:pmascanout_i[8] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:pmascanout_i[7] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:pmascanout_i[6] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:pmascanout_i[5] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:pmascanout_i[4] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:pmascanout_i[3] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:pmascanout_i[2] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:pmascanout_i[1] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:pmascanout_i[0] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:scanout_i[18] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:scanout_i[17] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:scanout_i[16] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:scanout_i[15] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:scanout_i[14] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:scanout_i[13] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:scanout_i[12] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:scanout_i[11] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:scanout_i[10] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:scanout_i[9] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:scanout_i[8] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:scanout_i[7] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:scanout_i[6] to constant 0
+INFO: [Common 17-14] Message 'Synth 8-3295' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:52 ; elapsed = 00:01:27 . Memory (MB): peak = 4096.797 ; gain = 1106.207 ; free physical = 7679 ; free virtual = 88473
+Synthesis current peak Physical Memory [PSS] (MB): peak = 15116.550; parent = 3077.053; children = 12078.089
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 21141.488; parent = 4096.801; children = 17044.688
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:52 ; elapsed = 00:01:27 . Memory (MB): peak = 4096.797 ; gain = 1106.207 ; free physical = 7679 ; free virtual = 88473
+Synthesis current peak Physical Memory [PSS] (MB): peak = 15116.550; parent = 3077.053; children = 12078.089
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 21141.488; parent = 4096.801; children = 17044.688
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:53 ; elapsed = 00:01:28 . Memory (MB): peak = 4096.797 ; gain = 1106.207 ; free physical = 7684 ; free virtual = 88477
+Synthesis current peak Physical Memory [PSS] (MB): peak = 15123.518; parent = 3077.053; children = 12078.089
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 21141.488; parent = 4096.801; children = 17044.688
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:53 ; elapsed = 00:01:28 . Memory (MB): peak = 4096.797 ; gain = 1106.207 ; free physical = 7693 ; free virtual = 88487
+Synthesis current peak Physical Memory [PSS] (MB): peak = 15123.581; parent = 3077.053; children = 12078.089
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 21141.488; parent = 4096.801; children = 17044.688
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:54 ; elapsed = 00:01:29 . Memory (MB): peak = 4096.797 ; gain = 1106.207 ; free physical = 7692 ; free virtual = 88486
+Synthesis current peak Physical Memory [PSS] (MB): peak = 15128.179; parent = 3077.053; children = 12078.089
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 21141.488; parent = 4096.801; children = 17044.688
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:54 ; elapsed = 00:01:29 . Memory (MB): peak = 4096.797 ; gain = 1106.207 ; free physical = 7692 ; free virtual = 88486
+Synthesis current peak Physical Memory [PSS] (MB): peak = 15128.179; parent = 3077.053; children = 12078.089
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 21141.488; parent = 4096.801; children = 17044.688
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |DSP48E        |        16|
++------+--------------+----------+
+
+Report Cell Usage: 
++------+--------------+------+
+|      |Cell          |Count |
++------+--------------+------+
+|1     |DSP48E_bbox   |     1|
+|2     |DSP48E_bbox_0 |    15|
+|17    |BUFG_GT       |    40|
+|18    |CARRY8        |   292|
+|19    |GTHE4_CHANNEL |     8|
+|20    |GTHE4_COMMON  |     2|
+|21    |LUT1          |   416|
+|22    |LUT2          |  3344|
+|23    |LUT3          |  1770|
+|24    |LUT4          |  3588|
+|25    |LUT5          |  4270|
+|26    |LUT6          |  7172|
+|28    |MULT_AND      |     4|
+|29    |MUXCY_L       |   142|
+|30    |MUXF7         |  1176|
+|31    |MUXF8         |   128|
+|32    |RAM32M16      |     8|
+|33    |RAM32X1D      |   144|
+|34    |RAMB36E1      |    32|
+|35    |RAMB36E2      |     8|
+|36    |SRL16E        |   420|
+|37    |XORCY         |    98|
+|38    |FDCE          |   904|
+|39    |FDE           |    64|
+|40    |FDPE          |   544|
+|41    |FDR           |     2|
+|42    |FDRE          | 33312|
+|43    |FDS           |    10|
+|44    |FDSE          |   476|
++------+--------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:54 ; elapsed = 00:01:29 . Memory (MB): peak = 4096.797 ; gain = 1106.207 ; free physical = 7692 ; free virtual = 88486
+Synthesis current peak Physical Memory [PSS] (MB): peak = 15128.210; parent = 3077.053; children = 12078.089
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 21141.488; parent = 4096.801; children = 17044.688
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 9983 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:45 ; elapsed = 00:01:25 . Memory (MB): peak = 4100.707 ; gain = 952.398 ; free physical = 19483 ; free virtual = 100276
+Synthesis Optimization Complete : Time (s): cpu = 00:00:55 ; elapsed = 00:01:34 . Memory (MB): peak = 4100.707 ; gain = 1110.117 ; free physical = 19495 ; free virtual = 100279
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00.32 ; elapsed = 00:00:00.32 . Memory (MB): peak = 4107.766 ; gain = 0.000 ; free physical = 19490 ; free virtual = 100274
+INFO: [Netlist 29-17] Analyzing 2278 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Opt 31-441] Inserted BUFG_GT_SYNC inst/QUAD[0].u_q/CH[0].u_ch/BUFG_GT_SYNC for BUFG_GT inst/QUAD[0].u_q/CH[0].u_ch/u_buf_dmonitorclk
+INFO: [Opt 31-441] Inserted BUFG_GT_SYNC inst/QUAD[0].u_q/CH[0].u_ch/BUFG_GT_SYNC_1 for BUFG_GT inst/QUAD[0].u_q/u_common/u_clocking/rx_ind.u_rxusr0_0
+INFO: [Opt 31-441] Inserted BUFG_GT_SYNC inst/QUAD[0].u_q/CH[0].u_ch/BUFG_GT_SYNC_2 for BUFG_GT inst/QUAD[0].u_q/u_common/u_clocking/tx_ind.u_txusr0_0
+INFO: [Opt 31-441] Inserted BUFG_GT_SYNC inst/QUAD[0].u_q/CH[1].u_ch/BUFG_GT_SYNC for BUFG_GT inst/QUAD[0].u_q/CH[1].u_ch/u_buf_dmonitorclk
+INFO: [Opt 31-441] Inserted BUFG_GT_SYNC inst/QUAD[0].u_q/CH[1].u_ch/BUFG_GT_SYNC_1 for BUFG_GT inst/QUAD[0].u_q/u_common/u_clocking/rx_ind.u_rxusr1_0
+INFO: [Opt 31-441] Inserted BUFG_GT_SYNC inst/QUAD[0].u_q/CH[1].u_ch/BUFG_GT_SYNC_2 for BUFG_GT inst/QUAD[0].u_q/u_common/u_clocking/tx_ind.u_txusr1_0
+INFO: [Opt 31-441] Inserted BUFG_GT_SYNC inst/QUAD[0].u_q/CH[2].u_ch/BUFG_GT_SYNC for BUFG_GT inst/QUAD[0].u_q/CH[2].u_ch/u_buf_dmonitorclk
+INFO: [Opt 31-441] Inserted BUFG_GT_SYNC inst/QUAD[0].u_q/CH[2].u_ch/BUFG_GT_SYNC_1 for BUFG_GT inst/QUAD[0].u_q/u_common/u_clocking/rx_ind.u_rxusr2_0
+INFO: [Opt 31-441] Inserted BUFG_GT_SYNC inst/QUAD[0].u_q/CH[2].u_ch/BUFG_GT_SYNC_2 for BUFG_GT inst/QUAD[0].u_q/u_common/u_clocking/tx_ind.u_txusr2_0
+INFO: [Opt 31-441] Inserted BUFG_GT_SYNC inst/QUAD[0].u_q/CH[3].u_ch/BUFG_GT_SYNC for BUFG_GT inst/QUAD[0].u_q/CH[3].u_ch/u_buf_dmonitorclk
+INFO: [Opt 31-441] Inserted BUFG_GT_SYNC inst/QUAD[0].u_q/CH[3].u_ch/BUFG_GT_SYNC_1 for BUFG_GT inst/QUAD[0].u_q/u_common/u_clocking/rx_ind.u_rxusr3_0
+INFO: [Opt 31-441] Inserted BUFG_GT_SYNC inst/QUAD[0].u_q/CH[3].u_ch/BUFG_GT_SYNC_2 for BUFG_GT inst/QUAD[0].u_q/u_common/u_clocking/tx_ind.u_txusr3_0
+INFO: [Opt 31-441] Inserted BUFG_GT_SYNC inst/QUAD[1].u_q/CH[0].u_ch/BUFG_GT_SYNC for BUFG_GT inst/QUAD[1].u_q/CH[0].u_ch/u_buf_dmonitorclk
+INFO: [Opt 31-441] Inserted BUFG_GT_SYNC inst/QUAD[1].u_q/CH[0].u_ch/BUFG_GT_SYNC_1 for BUFG_GT inst/QUAD[1].u_q/u_common/u_clocking/rx_ind.u_rxusr0_0
+INFO: [Opt 31-441] Inserted BUFG_GT_SYNC inst/QUAD[1].u_q/CH[0].u_ch/BUFG_GT_SYNC_2 for BUFG_GT inst/QUAD[1].u_q/u_common/u_clocking/tx_ind.u_txusr0_0
+INFO: [Opt 31-441] Inserted BUFG_GT_SYNC inst/QUAD[1].u_q/CH[1].u_ch/BUFG_GT_SYNC for BUFG_GT inst/QUAD[1].u_q/CH[1].u_ch/u_buf_dmonitorclk
+INFO: [Opt 31-441] Inserted BUFG_GT_SYNC inst/QUAD[1].u_q/CH[1].u_ch/BUFG_GT_SYNC_1 for BUFG_GT inst/QUAD[1].u_q/u_common/u_clocking/rx_ind.u_rxusr1_0
+INFO: [Opt 31-441] Inserted BUFG_GT_SYNC inst/QUAD[1].u_q/CH[1].u_ch/BUFG_GT_SYNC_2 for BUFG_GT inst/QUAD[1].u_q/u_common/u_clocking/tx_ind.u_txusr1_0
+INFO: [Opt 31-441] Inserted BUFG_GT_SYNC inst/QUAD[1].u_q/CH[2].u_ch/BUFG_GT_SYNC for BUFG_GT inst/QUAD[1].u_q/CH[2].u_ch/u_buf_dmonitorclk
+INFO: [Opt 31-441] Inserted BUFG_GT_SYNC inst/QUAD[1].u_q/CH[2].u_ch/BUFG_GT_SYNC_1 for BUFG_GT inst/QUAD[1].u_q/u_common/u_clocking/rx_ind.u_rxusr2_0
+INFO: [Opt 31-441] Inserted BUFG_GT_SYNC inst/QUAD[1].u_q/CH[2].u_ch/BUFG_GT_SYNC_2 for BUFG_GT inst/QUAD[1].u_q/u_common/u_clocking/tx_ind.u_txusr2_0
+INFO: [Opt 31-441] Inserted BUFG_GT_SYNC inst/QUAD[1].u_q/CH[3].u_ch/BUFG_GT_SYNC for BUFG_GT inst/QUAD[1].u_q/CH[3].u_ch/u_buf_dmonitorclk
+INFO: [Opt 31-441] Inserted BUFG_GT_SYNC inst/QUAD[1].u_q/CH[3].u_ch/BUFG_GT_SYNC_1 for BUFG_GT inst/QUAD[1].u_q/u_common/u_clocking/rx_ind.u_rxusr3_0
+INFO: [Opt 31-441] Inserted BUFG_GT_SYNC inst/QUAD[1].u_q/CH[3].u_ch/BUFG_GT_SYNC_2 for BUFG_GT inst/QUAD[1].u_q/u_common/u_clocking/tx_ind.u_txusr3_0
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 4262.031 ; gain = 0.000 ; free physical = 19452 ; free virtual = 100236
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 464 instances were transformed.
+  (CARRY4) => CARRY8: 22 instances
+  DSP48E => DSP48E2 (DSP_ALU, DSP_A_B_DATA, DSP_C_DATA, DSP_MULTIPLIER, DSP_M_DATA, DSP_OUTPUT, DSP_PREADD, DSP_PREADD_DATA): 16 instances
+  FDE => FDRE: 64 instances
+  FDR => FDRE: 2 instances
+  FDS => FDSE: 10 instances
+  LUT6_2 => LUT6_2 (LUT5, LUT6): 162 instances
+  MULT_AND => LUT2: 4 instances
+  RAM32M16 => RAM32M16 (RAMD32(x14), RAMS32(x2)): 8 instances
+  RAM32X1D => RAM32X1D (RAMD32(x2)): 144 instances
+  RAMB36E1 => RAMB36E2: 32 instances
+
+Synth Design complete, checksum: 1844ee15
+INFO: [Common 17-83] Releasing license: Synthesis
+422 Infos, 446 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:03 ; elapsed = 00:01:42 . Memory (MB): peak = 4262.031 ; gain = 2191.375 ; free physical = 19656 ; free virtual = 100441
+INFO: [Common 17-1381] The checkpoint '/home/bouthsarath/ibert_dfe/prj/zubpm_hw/zubpm_hw.runs/ibert_synth_1/ibert.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP ibert, cache-ID = 72f6047b2c75662b
+INFO: [Coretcl 2-1174] Renamed 3576 cell refs.
+INFO: [Common 17-1381] The checkpoint '/home/bouthsarath/ibert_dfe/prj/zubpm_hw/zubpm_hw.runs/ibert_synth_1/ibert.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file ibert_utilization_synth.rpt -pb ibert_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Wed Dec  3 09:23:08 2025...

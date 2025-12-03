@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="ibert_synth_1" LaunchDir="/home/bouthsarath/ibert_dfe/prj/zubpm_hw/zubpm_hw.runs/ibert_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="sys_clk_synth_1" LaunchDir="/home/bouthsarath/ibert_dfe/prj/zubpm_hw/zubpm_hw.runs/sys_clk_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="top_proc_sys_reset_0_0_synth_1" LaunchDir="/home/bouthsarath/ibert_dfe/prj/zubpm_hw/zubpm_hw.runs/top_proc_sys_reset_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="top_smartconnect_0_0_synth_1" LaunchDir="/home/bouthsarath/ibert_dfe/prj/zubpm_hw/zubpm_hw.runs/top_smartconnect_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="top_zynq_ultra_ps_e_0_0_synth_1" LaunchDir="/home/bouthsarath/ibert_dfe/prj/zubpm_hw/zubpm_hw.runs/top_zynq_ultra_ps_e_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="synth_1" LaunchDir="/home/bouthsarath/ibert_dfe/prj/zubpm_hw/zubpm_hw.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="ibert_synth_1"/>
+		<Parent Id="sys_clk_synth_1"/>
+		<Parent Id="top_proc_sys_reset_0_0_synth_1"/>
+		<Parent Id="top_smartconnect_0_0_synth_1"/>
+		<Parent Id="top_zynq_ultra_ps_e_0_0_synth_1"/>
+	</Run>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+		<Parameter Name="runs.enableClusterConf" Val="true" Type="bool"/>
+	</Parameters>
+</Runs>
+

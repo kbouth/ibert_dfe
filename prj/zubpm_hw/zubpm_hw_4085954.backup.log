@@ -1,0 +1,116 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 04:59:54 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Tue Dec  2 17:17:32 2025
+# Process ID: 4085954
+# Current directory: /home/bouthsarath/ibert_dfe
+# Command line: vivado -mode tcl -source ./fwk/src/main.tcl -notrace -journal prj/zubpm_hw/zubpm_hw.jou -log prj/zubpm_hw/zubpm_hw.log -tclargs init create -c cfg/hw.cfg -t vivado --exit --colorterm 1
+# Log file: /home/bouthsarath/ibert_dfe/prj/zubpm_hw/zubpm_hw.log
+# Journal file: /home/bouthsarath/ibert_dfe/prj/zubpm_hw/zubpm_hw.jou
+# Running On: WPS-171005, OS: Linux, CPU Frequency: 3058.861 MHz, CPU Physical cores: 16, Host memory: 67199 MB
+#-----------------------------------------------------------
+source ./fwk/src/main.tcl -notrace
+[1;36m--------------------------------------------------------------------------------[0m[m[0m
+
+[1;38;5;6m    __/\\\\\\\\\\\\\\\__/\\\______________/\\\__/\\\________/\\_[0m
+[1;38;5;6m     _\/\\\///////////__\/\\\_____________\/\\\_\/\\\_____/\\//__[0m
+[1;38;5;6m      _\/\\\_____________\/\\\_____________\/\\\_\/\\\__/\\\//_____[0m
+[1;38;5;6m       _\/\\\\\\\\\\\_____\//\\\____/\\\____/\\\__\/\\\\\\//\\\_____[0m
+[1;38;5;6m        _\/\\\///////_______\//\\\__/\\\\\__/\\\___\/\\\//_\//\\\____[0m
+[1;38;5;6m         _\/\\\_______________\//\\\/\\\/\\\/\\\____\/\\\____\//\\\___[0m
+[1;38;5;6m          _\/\\\________________\//\\\\\\//\\\\\_____\/\\\_____\//\\\__[0m
+[1;38;5;6m           _\/\\\_________________\//\\\__\//\\\______\/\\\______\//\\\_[0m
+[1;38;5;6m            _\///___________________\///____\///_______\///________\///__[0m
+
+[1;36m--------------------------------------------------------------------------------[0m[m[0m
+[1;38;5;6m FPGA Firmware Framework Project (FWK)[0m
+[1;38;5;6m                                                 developed by MSK Group of DESY[0m
+[1;36m--------------------------------------------------------------------------------[0m[m[0m
+[1;38;5;8m# INFO: [0m Absolute path of the firmware framework project:
+[::fwfwk::ProjectPath] /home/bouthsarath/ibert_dfe
+[1;38;5;8m# INFO: [0m main.tcl [args]: init create -c cfg/hw.cfg -t vivado --exit
+[1;38;5;8m# INFO: [0m Getting default project configuration from: default.cfg
+[1;38;5;8m# INFO: [0m Getting project configuration from: /home/bouthsarath/ibert_dfe/cfg/hw.cfg
+[1;38;5;8m# INFO: [0m Sourcing  fwfwk_vivado.tcl
+[1;38;5;11m# WARNING: [0m no Git repository nor commits available to generate version
+
+[1;36m-------------------------------------[0m[m[0m
+[0;36mLoaded Configuration:[0m[m[0m
+[1;36m-------------------------------------[0m[m[0m
+[0;37mProjectName[0m[m : zubpm [0m
+[0;37mProjectConf[0m[m : hw [0m
+[0;37mProjectTcl[0m[m  : tcl/project_hw.tcl [0m
+[0;37mToolType[0m[m    : vivado[0m
+[0;37m.....................................[0m[m[0m
+[1;37mProject Version : 0.0.0-0-g20000000-WPS-171005[0m[m[0m
+[1;36m-------------------------------------[0m[m[0m
+[1;36m         Git Submodules[0m[m[0m
+[1;36m-------------------------------------[0m[m[0m
+Module path                    Version                  on branch               
+[1;36m--------------------------------------------------------------------------------[0m[m[0m
+[1;38;5;6m
+== INIT ==[0m
+[1;38;5;8m# INFO: [0m Creating namespace ::fwfwk::src
+[1;38;5;11m# WARNING: [0m no Git repository nor commits available to generate version
+
+[1;38;5;8m# INFO: [0m Creating namespace ::fwfwk::src::app
+[1;38;5;11m# WARNING: [0m no Git repository nor commits available to generate version
+
+[1;38;5;6mIn ./hw/src/main.tcl init()...[0m
+[1;36m--------------------------------------------------------------------------------[0m[m[0m
+[1;38;5;8m# INFO: [0m Tree View of the Sources:
+ +- src                     
+   +- app                     
+[1;36m--------------------------------------------------------------------------------[0m[m[0m
+[1;38;5;6m== CREATE ==[0m
+[1;38;5;8m# INFO: [0m Creating ( zubpm_hw ) vivado project ...
+[1;38;5;8m# INFO: [0m in /home/bouthsarath/ibert_dfe/prj/zubpm_hw
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2022.2/data/ip'.
+[1;36m--------------------------------------------------------------------------------[0m[m[0m
+[1;38;5;6m== GEN/ADD ADDRESS SPACE ==[0m
+[1;38;5;8m# INFO: [0m executing ::fwfwk::src::app::setAddressSpace
+[1;38;5;8m# INFO: [0m executing ::fwfwk::src::setAddressSpace
+[1;36m--------------------------------------------------------------------------------[0m[m[0m
+[1;38;5;8m# INFO: [0m Address Space Tree:
++-- zubpm[] (zubpm)                                        0x00000000         0xffffffff 0
+[1;36m--------------------------------------------------------------------------------[0m[m[0m
+[1;38;5;8m# INFO: [0m Generating Rdl files:
+[1;38;5;8m# INFO: [0m Cleaning /home/bouthsarath/ibert_dfe/prj/zubpm_hw/zubpm_hw.desyrdl/rdl
+[1;38;5;8m# INFO: [0m List of .rdl files in project:
+[1;38;5;8m# INFO: [0m Cleaning /home/bouthsarath/ibert_dfe/prj/zubpm_hw/zubpm_hw.desyrdl/vhdl h map adoc
+[1;36m--------------------------------------------------------------------------------[0m[m[0m
+[1;38;5;8m# INFO: [0m Running DesyRdl to generate vhdl h map adoc files: 
+[1;36m--------------------------------------------------------------------------------[0m[m[0m
+[1;38;5;8m# INFO: [0m Mapp files output path: /home/bouthsarath/ibert_dfe/out/zubpm_hw
+[1;38;5;8m# INFO: [0m Creating global mapp file
+[1;38;5;8m# INFO: [0m Creating global mapt file
+[1;36m--------------------------------------------------------------------------------[0m[m[0m
+[1;38;5;6m== SET SOURCES ==[0m
+[1;38;5;8m# INFO: [0m executing ::fwfwk::src::app::setSources
+[1;38;5;6mIn ./hw/src/main.tcl setSources()...[0m
+[1;38;5;8m# INFO: [0m executing ::fwfwk::src::setSources
+[1;36m--------------------------------------------------------------------------------[0m[m[0m
+[1;38;5;6m== DO ON CREATE ==[0m
+[1;38;5;8m# INFO: [0m executing ::fwfwk::src::app::doOnCreate
+[1;38;5;6mIn ./hw/src/main.tcl doOnCreate()[0m
+INFO: [BD::TCL 103-2003] Currently there is no design <top> in project, so creating one...
+Wrote  : </home/bouthsarath/ibert_dfe/prj/zubpm_hw/zubpm_hw.srcs/sources_1/bd/top/top.bd> 
+INFO: [BD::TCL 103-2004] Making design <top> as current_bd_design.
+INFO: [BD::TCL 103-2005] Currently the variable <design_name> is equal to "top".
+INFO: [BD::TCL 103-2011] Checking if the following IPs exist in the project's IP catalog:  
+xilinx.com:ip:proc_sys_reset:5.0 xilinx.com:ip:smartconnect:1.0 xilinx.com:ip:zynq_ultra_ps_e:3.4  .
+CRITICAL WARNING: [BD 41-1356] Slave segment </M00_AXI_0/Reg> is not assigned into address space </zynq_ultra_ps_e_0/Data>. Please use Address Editor to either assign or exclude it.
+INFO: [xilinx.com:ip:smartconnect:1.0-1] top_smartconnect_0_0: SmartConnect top_smartconnect_0_0 is in High-performance Mode.
+Wrote  : </home/bouthsarath/ibert_dfe/prj/zubpm_hw/zubpm_hw.srcs/sources_1/bd/top/top.bd> 
+[1;38;5;8m# INFO: [0m executing ::fwfwk::addSources in vivado with ::fwfwk::src::app::Sources
+[1;38;5;6mTclPath = /home/bouthsarath/ibert_dfe/src/hw/tcl[0m
+[1;38;5;6mSrcPath = /home/bouthsarath/ibert_dfe/src[0m
+[1;38;5;8m# INFO: [0m executing ::fwfwk::src::doOnCreate
+[1;36m--------------------------------------------------------------------------------[0m[m[0m
+[1;32m# INFO: Project creation completed successfully
+[0m
+Exiting tool...
+INFO: [Common 17-206] Exiting Vivado at Tue Dec  2 17:17:40 2025...
