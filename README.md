@@ -6,7 +6,7 @@ Uses the DESY FWK FPGA Firmware Framework https://fpgafw.pages.desy.de/docs-pub/
 
 Clone with --recurse-submodules to get the FWK repos:
 
-    git clone --recurse-submodules git@github.com:kbouth/acmi-chainb.git
+    git clone --recurse-submodules git@github.com:kbouth/ibert_dfe.git
 
 Setup Environment (first time only): 
     
