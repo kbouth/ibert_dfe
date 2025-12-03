@@ -1,6 +1,5 @@
-ACMI Frontend Platform - Chain B
 
-Gateware for ACMI Frontend.  Uses custom Artix board as the hardware platform.   Communicates with withe ACMI backend hardware via fiber.  Responsible for all ACMI related safety tasks 
+IBERT test used for verification testing of the ZUDFE REF. B Boards
 
 Uses the DESY FWK FPGA Firmware Framework https://fpgafw.pages.desy.de/docs-pub/fwk/index.html
 
@@ -18,7 +17,7 @@ If error shows up, do this before make env:
     source env/bin/activate
 
 
-To build firmware: 
+To build firmware, use these options: 
 
      make cfg=hw project (Sets up project)
      
